@@ -1,0 +1,46 @@
+---
+layout: default
+title: About
+stylesheet: "about"
+---
+
+<div class="container">
+  <div class="row" id="intro">
+    <h3>Hey. My name is Andrew Lorber and here's a little about me.</h3> 
+  </div>
+  <div class="row">
+    <h4>Education:</h4>
+  </div>
+  <div class="row">
+      <h5 class="col-8">The Cooper Union for the Advancement of Science and Art</h5>
+      <h5 class="col-4">GPA: 4.0</h5>
+  </div>
+  <div class="row">
+    <p class="col">Relevant Courses:</p>
+  </div>
+  <div class="accordion">
+    {% for course in site.data.courses %}
+      <div class="card">
+        <div class="card-header">
+          <a role="button" data-toggle="collapse" data-target="#Course{{ course.number }}" aria-expanded="true" aria-controls="Course{{ course.number }}">
+            <div class="row btn-text">
+              <div class="col-10">
+                <p class="course">{{ course.name }}</p>
+              </div>
+              <div class="col-2">
+                <p class="grade">{% if course.grade != "Fall 2019" %} Grade: {% endif %} {{ course.grade }}</p>
+              </div> 
+            </div>
+          </a>
+        </div>
+
+        <div id="Course{{ course.number }}" class="collapse {% if course.number == 1 %} show {% endif %}">
+          <div class="card-body">
+            {{ course.description }}
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+
+</div>

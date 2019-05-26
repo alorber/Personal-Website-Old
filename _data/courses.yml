@@ -1,0 +1,24 @@
+- name: Digital Logic Design
+  grade: A
+  description: Digital Logic Design is...
+  number: 1
+
+- name: Programming for Electrical Engineers
+  grade: A
+  description: Programming for Electrical Engineers is...
+  number: 2
+
+- name: Computer Architecture
+  grade: A
+  description: Computer Architecture is...
+  number: 3
+
+- name: Data Structures and Algorithms
+  grade: A
+  description: Data Structures and Algorithms is...
+  number: 4
+
+- name: Artificial Intelligence
+  grade: Fall 2019
+  description: Artificial Intelligence is...
+  number: 5
