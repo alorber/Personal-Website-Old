@@ -17,3 +17,10 @@
 	float: left;
 	margin-left: 5em;
 }
+.card-body {
+	padding-top: 1em;
+	padding-bottom: .5em;
+}
+#RamazTitle {
+	padding-top: 2em;
+}

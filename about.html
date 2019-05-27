@@ -13,7 +13,13 @@ stylesheet: "about"
   </div>
   <div class="row">
       <h5 class="col-8">The Cooper Union for the Advancement of Science and Art</h5>
-      <h5 class="col-4">GPA: 4.0</h5>
+      <h5 class="col-4">GPA: 4.0 </h5>
+  </div>
+  <div class="row">
+    <p class="col"><i>BE Electrical Engineering with Focus in Computer Engineering</i></p>
+  </div>
+  <div class="row">
+    <p class="col"><i>School Honors (2 Semesters)</i></p>
   </div>
   <div class="row">
     <p class="col">Relevant Courses:</p>
@@ -36,11 +42,77 @@ stylesheet: "about"
 
         <div id="Course{{ course.number }}" class="collapse {% if course.number == 1 %} show {% endif %}">
           <div class="card-body">
-            {{ course.description }}
+            <p>{{ course.description }}</p>
           </div>
         </div>
       </div>
     {% endfor %}
+  </div>
+
+  <div class="row" id="RamazTitle">
+      <h5 class="col-8">Ramaz Upper School</h5>
+      <h5 class="col-4">GPA: 3.8</h5>
+  </div>
+  <div class="row">
+    <p class="col"><i>High School Diploma</i></p>
+  </div>
+  <div class="row">
+    <p class="col"><i>Gorfinkle/Waldman Award for Outstanding Work in the Study of Computer Science</i></p>
+  </div>
+  <div class="row">
+    <p class="col">Relevant Courses:</p>
+  </div>
+  <div class="accordion">
+      <div class="card">
+        <div class="card-header">
+          <a role="button" data-toggle="collapse" data-target="#CourseRamaz" aria-expanded="true" aria-controls="CourseRamaz">
+            <div class="row btn-text">
+              <div class="col-10">
+                <p class="course">AP Computer Science</p>
+              </div>
+              <div class="col-2">
+                <p class="grade">Grade: A+</p>
+              </div> 
+            </div>
+          </a>
+        </div>
+
+        <div id="CourseRamaz" class="collapse">
+          <div class="card-body">
+            <p>AP Computer Science..</p>
+          </div>
+        </div>
+      </div>
+  </div>
+
+  <div class="accordion">
+      <div class="card">
+        <div class="card-header">
+          <a role="button" data-toggle="collapse" data-target="#StandardizedTests" aria-expanded="true" aria-controls="StandardizedTests">
+            <div class="row btn-text">
+                <p class="course">Standardized Tests</p>
+            </div>
+          </a>
+        </div>
+
+        <div id="StandardizedTests" class="collapse">
+          <div class="card-body">
+            {% for test in site.data.standardized_tests %}
+              <div class="row">
+                <div class="col-8">
+                  <p>{{ test.name }}</p>
+                </div>
+                <div class="col-4">
+                  <p>{{ test.score }}</p>
+                </div>
+              </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+  </div>
+  <div class="row">
+    <h4>Hobbies:</h4>
   </div>
 
 </div>
