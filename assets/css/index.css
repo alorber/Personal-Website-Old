@@ -1,0 +1,26 @@
+#Row {
+	margin-top: 6em;
+}
+#Headshot {
+	width: 400px;
+	border-radius: 50%;
+	border: medium solid black;
+}
+p {
+	font-size: 2.6em;
+}
+#Text_Div {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+#Intro_Text {
+	text-align: center;
+	margin: 0;
+	width: 100%;
+}
+#Intro_Words {
+	text-align: center;
+	margin: 0;
+	width: 100%;
+}
