@@ -1,24 +1,43 @@
 - name: Digital Logic Design
   grade: A
-  description: Digital Logic Design is...
+  description: Theoretical and practical issues concerning design with combinational 
+    and sequential logic circuits. Topics include number systems, 
+    boolean algebra, representation and simplification of boolean functions, 
+    universal logic families, finite-state machines, state tables and state diagrams, 
+    flip-flops, counters, registers, adders, decoders, comparators, multiplexers, 
+    memories, and applications.
   number: 1
 
 - name: Programming for Electrical Engineers
   grade: A
-  description: Programming for Electrical Engineers is...
+  description: Programming in C in a Linux environment, with an emphasis on software 
+    development methodology. Data types, expressions, control flow, pointers, subroutines, 
+    numerical and text processing, data structures and algorithms. Introduction to 
+    computer architecture and operating systems. Introduction to object oriented programming in C++, 
+    and classification of programming languages.
   number: 2
 
 - name: Computer Architecture
   grade: A
-  description: Computer Architecture is...
+  description: Coursework involved programming PLD devices and PIC devices.
   number: 3
 
 - name: Data Structures and Algorithms
   grade: A
-  description: Data Structures and Algorithms is...
+  description: An introduction to fundamental data structures and algorithms, 
+    with an emphasis on practical implementation issues and good programming methodology. 
+    Topics include lists, stacks, queues, trees, hash tables and sorting algorithms. 
+    Also an introduction to analysis of algorithms with big-O notation.
   number: 4
 
 - name: Artificial Intelligence
   grade: Fall 2019
-  description: Artificial Intelligence is...
+  description: "This course covers many subtopics of AI, focusing on a few important subtopics in detail. 
+    The 'intelligent agent' approach is explained and forms a foundation for the rest of the course. 
+    Intelligent search: uninformedsearch, depth-first search, breadth-first search, iterative deepening; 
+    informed search, best-first search, A*, heuristics, hill climbing; constraint satisfaction problems; 
+    intelligent gameplaying, minimax search, alpha-betapruning. Machine learning: probability, Bayesian 
+    learning; decision trees; statistical machine learning, neural networks, Naive Bayes, k-nearest neighbors, 
+    support vector machines. Natural language processing: syntax, semantics and pragmatics; real-world knowledge; 
+    parsing; statistical NLP. Philosophy of AI: AI and consciousness, the Turing test, the Chinese room experiment."
   number: 5

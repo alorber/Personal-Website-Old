@@ -2,8 +2,105 @@
 layout: default
 title: About
 stylesheet: "about"
+js: "about"
 ---
 
+<div class="container text-center">
+  <h1 mt-5>My name is Andrew Lorber and here's my story.</h1>
+
+  <div class="row">
+    <div class="col text-center mt-3">
+      <div class="btn-group" role="group" aria-label="animation-toggle">
+        <button type="button" class="btn btn-success">On</button>
+        <button type="button" class="btn btn-danger">Off</button>
+      </div>
+    </div>  
+  </div>
+
+  <div class="row">
+    <div class="col">
+      <h3>I live here</h3>
+      <img src="../assets/img/Scarsdale.gif">
+      <h3>In Scarsdale, New York.</h3>
+    </div>
+  </div>
+
+  <h2>.</br>.</br>.</h2>
+
+  <div class="row">
+    <div class="col">
+      <p>I grew up loving reading and STEM, but was unsure of what I wanted to do with my life.</p>
+    </div>
+  </div>
+
+  <h2>.</br>.</br>.</h2>
+
+  <div class="row">
+    <div class="col">
+      <p>During my senior year of high school, I took my first programming course, <i><span>AP Computer Science</span></i>, and I was hooked. The course consisted of watching videos at home to learn the material and reviewing in class. The units of videos were released monthly and I would complete each month's work within the first few days. My teacher would give me other work to do, mainly consisting of <i><span>Project Euler</span></i>, that would allow me to learn more and practice the skills I had already learned.</p>
+
+      <p></br>Later that year, my teacher asked me if I would like to build a website for a school art project. I agreed and spent time teaching myself web development through online resources. I used my newly acquired skills to create a website for <i><span>The Ramaz Artist Project</span></i>. It was a great learning experience and my first attempt at web developpment.</br> <a href="http://artistproject.ramaz.org/index.html">
+        <i>Check out the project here!</i></a></p>
+    </div>
+  </div>
+
+  <h2>.</br>.</br>.</h2>
+
+  <div class="row">
+    <div class="col">
+      <p>That summer I interned at <span>KeyMe</span> as a front-end developer. I worked on interesting projects consisting of revamping the shopping cart navigation, creating an end-to-end easter egg coupon experience, and more. I learned a lot, including git and <i><span>Vue</span></i>, and it was a great experience working there. </p>
+    </div>
+  </div>
+
+  <h2>.</br>.</br>.</h2>
+
+  <div class="row">
+    <div class="col">
+      <p>I am currently an undergraduate Electrical Engineer with a focus in Computer Engineering at <span>The Cooper Union for the Advancement of Science and Art</span> in New York City.</p>
+      <p></br>I have taken many courses related to both hardware and software. These include:</p>
+      <ul>
+        <li style="font-size: 1em">(Hover over a class for course description)</li>
+        {% for course in site.data.courses %}
+        <li><a data-toggle="collapse" data-target="#course{{course.number}}" href="##" 
+          role="button" aria-expanded="false">{{ course.name }}</a></li>
+        <p class="collapse" id="course{{course.number}}">{{ course.description }}</p>
+        {% endfor %}
+      </ul>
+      <p>I have learned amazing things and have worked on some really cool projects.
+        </br><a href="##"><i>Check them out here!</i></a></p>
+    </div>
+  </div>
+
+  <h2>.</br>.</br>.</h2>
+
+  <div class="row">
+    <div class="col">
+      <p>During the winter break of my freshman year, I decided to learn more backend development. I taught myself <i><span>Node.js</span></i> and used it along with the Spotify Web API to build a song guessing game that I had previouslt played mechanically with friends. The source code can be viewed on <a href="##"><i>my GitHub</i></a> and I hope to have it runnning online soon. <a href="###"><i>You can read about the project here</i></a></p>
+    </div>
+  </div>
+
+  <h2>.</br>.</br>.</h2>
+
+  <div class="row">
+    <div class="col">
+      <p>This summer, before my sophomore year, I will be working at <a href="##"><i>The Cooper Union Summer STEM program</i></a> as a teaching assistant. I, along with three others, will be teaching high school students with no previous programming experience web / app development and assisting them in creating website and apps for non-for-profit organizations in the area. </p>
+    </div>
+  </div>
+
+  <h2>.</br>.</br>.</h2>
+
+  <div class="row">
+    <div class="col">
+      <p> I am always looking for more opportunities to learn and am searching for an internship for the summer of 2020. </p>
+    </div>
+  </div>
+
+</div>
+
+
+
+
+<!-- If no animation
 <div class="container">
   <div class="row" id="intro">
     <h3>Hey. My name is Andrew Lorber and here's a little about me.</h3> 
@@ -114,5 +211,4 @@ stylesheet: "about"
   <div class="row">
     <h4>Hobbies:</h4>
   </div>
-
-</div>
+</div> -->
