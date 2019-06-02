@@ -1,5 +1,9 @@
 $(document).ready(function(){
 
-	$('[data-toggle="tooltip"]').tooltip();
+	new TypeIt("#Head_Text", {
+		afterComplete: function(){
+			$("#Fade_Div").fadeIn(3000);
+		},
+	}).go();
 
 });

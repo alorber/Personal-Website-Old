@@ -1,8 +1,9 @@
-h1, h3 {
-	margin-top: 1em;
+#Fade_Div {
+	display: none;
 }
 img {
-	height: 400px;
+	max-height: 100%;
+	max-width: 50vw;
 	border-radius: 100px;
 	margin-top: .5em;
 }
@@ -12,38 +13,22 @@ p {
 	margin: auto;
 	text-align: justify;
 }
+ul {
+	margin-left: -2em;
+}
 li {
 	font-size: 1.5em;
 	margin: auto;
 	padding-top: .3em;
 	list-style-type: none;
 }
+a:link, a:visited, a:hover, a:active  {
+	color: #b10000;
+	text-decoration: none;
+}
 
-
-/* Without animation
-.btn {
-	width: 90%;
-	height: 100%;
+@media (max-width:771px) {
+	p {
+		text-align: center;
+	}
 }
-#intro {
-	padding-top: 1.5em;
-	padding-bottom: 1em;
-}
-.card-header {
-	padding: 0;
-}
-.btn-text {
-	padding-top: 1em;
-	padding-bottom: .5em;
-}
-.course {
-	float: left;
-	margin-left: 5em;
-}
-.card-body {
-	padding-top: 1em;
-	padding-bottom: .5em;
-}
-#RamazTitle {
-	padding-top: 2em;
-}  */
