@@ -1,0 +1,26 @@
+---
+layout: default
+title: Contact Me
+stylesheet: contact
+js: contact
+---
+
+<div class="container text-center">
+	<h2 class="mt-4">Feel free to get in touch. I look forward to hearing from you.</h2>
+
+	<div class="row mt-5">
+		<div class="col">
+			<form action="https://mailthis.to/andrew_lorber" method="POST" encType="multipart/form-data">
+  				<h5>Send me and email</h5>
+  				<input type="name" name="name" placeholder="Your name"></br>
+  				<input type="email" name="email" placeholder="you@mail.com"></br>
+  				<input type="text" name="phone" placeholder="+1 (000) 000-0000"></br>
+  				<textarea name="message" placeholder="Enter your message here" style="height:90px"></textarea></br>
+  				<input type="file" name="file" placeholder=""></br>
+  				<input type="hidden" name="_honeypot" value="">
+  				<input type="hidden" name="_confirmation" value="Sent!">
+				<input type="submit" name="submit" value="Submit Form" class="btn btn-primary">
+			</form>
+		</div>
+	</div>
+</div>
