@@ -15,20 +15,24 @@ stylesheet: "projects"
   			<h5>{{ project.subtitle }}</h5>
   		</div>
   		<div class="col-4 project_img">
-  			<!-- <img src="https://image.shutterstock.com/image-photo/kiev-ukraine-april-16-2015-450w-276697244.jpg"> -->
   			{% for icon in project.icons %}
   			{{icon}}
   			{% endfor %}
   		</div>
   	</div>
-  	<div class="collapse row mt-4" id="Project_Descr{{project.number}}">
-  		<div class="col-6">
-  			<p class="project_Description">{{ project.description }}</p>
-  		</div>
-  		<div class="col-6">
-  			<img src="https://image.shutterstock.com/image-photo/kiev-ukraine-april-16-2015-450w-276697244.jpg">
-  		</div>
+  	<div class="collapse" id="Project_Descr{{project.number}}">
+	   	<div class="row mt-4">
+	  		<div class="col-7">
+	  			<p class="project_Description">{{ project.description }} </p>
+	  		</div>
+	  		{% if project.pics != 0 %}
+	  		<div class="col-5 img_gallery">
+	  			<img src="https://image.shutterstock.com/image-photo/kiev-ukraine-april-16-2015-450w-276697244.jpg">
+	  		</div>
+	  		{% endif %}
 
+	  	</div> 		
   	</div>
+
   	{% endfor %}
 </div>

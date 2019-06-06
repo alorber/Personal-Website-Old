@@ -5,7 +5,7 @@
     The data sets were comprised of
   icons: 
     - <i class="devicon-cplusplus-plain colored"></i>
-  pics: nil
+  pics: 0
   number: 1
 
 - name: Stacks & Queues
@@ -14,13 +14,13 @@
   description: words
   icons: 
     - <i class="devicon-cplusplus-plain colored"></i>
-  pics: nil
+  pics: 0
   number: 2
 
 - name: Guess The Song
   subtitle: Song Guessing Game built over Winter Break to Learn More Backend Web Development.
   date: Winter 2019
-  description: "I love listening to music and so do my friends. Now and then we would play a game where 
+  description: 'I love listening to music and so do my friends. Now and then we would play a game where 
     we would shuffle a playlist on Spotify and see who could guess the song first. I decided to learn backend 
     web development by creating a web version of the game we had been playing mechanically. I learned Node.js and 
     how to work with the Spotify Web API to build <i>Guess The Song</i>. The game requires the user to sign into 
@@ -29,7 +29,7 @@
     points as they can. Points are awarded based on how fast the correct answer is chosen. An incorrect choice will 
     subtract 5 seconds. (2) Classic Mode - The user can see how long they can last before they lose all three lives. 
     Each song will play for 5 seconds before a life is lost.</br></br>I hope to have the game playable online soon.The 
-    code can be viewed <a href='https://github.com/alorber/Guess-The-Song'><i>here</i></a>."
+    code can be viewed <a href="https://github.com/alorber/Guess-The-Song"><i>here</i></a>.'
   icons: 
     - <i class="devicon-bootstrap-plain colored"></i>
     - <i class="devicon-css3-plain colored"></i>
@@ -55,7 +55,7 @@
     on, then the player will lose. Since it is possible to have an unplayable board if randomly generated, 4 easy 
     boards and 4 hard boards were created. The player can select the difficulty and one of the 4 board from the 
     selected group will be randomly chosen.</br></br>My documentation for the project, including a schematic diagram 
-    of the circuit, can be viewed <a href="##">here</a>."
+    of the circuit, can be viewed <a href='##'>here</a>."
   icons:
     - <i class="fas fa-3x fa-microchip"></i>
   pics: nil
@@ -64,11 +64,11 @@
 - name: Traffic Light
   subtitle: Traffic Light Built Using CMOS Logic Chips for a Digital Logic Design Project
   date: Fall 2018
-  description: "The purpose of this project was to simulate a 4-way traffic light using CMOS logic chips and 
+  description: 'The purpose of this project was to simulate a 4-way traffic light using CMOS logic chips and 
     breadboards. The traffic light included: red, yellow, and green LEDs for all 4 directions; green and yellow turn 
     signals for East and West; a display counting down the seconds left for the green light (time left for pedestrians 
     to cross); a pedestrian button to shorten the green light to 5 seconds.</br></br>My documentation for the project, 
-    including a schematic diagram of the circuit, can be viewed <a href="##">here</a>. "
+    including a schematic diagram of the circuit, can be viewed <a href="##">here</a>.'
   icons:
     - <i class="fas fa-3x fa-microchip"></i>
   pics: nil
@@ -86,7 +86,7 @@
     - <i class="devicon-jquery-plain-wordmark colored"></i>
     # - <i class="fab fa-js-square"></i>
     # - <i class="fab fa-html5"></i>
-  pics: nil
+  pics: 0
   number: 6
 
   # - name:
