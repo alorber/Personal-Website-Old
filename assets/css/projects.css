@@ -1,10 +1,12 @@
 .project {
 	border-top: medium dotted black;
 }
-.project_titles, .project_img{
+.project_titles,{
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
+	vertical-align: middle;
+
 }
 a:link, a:visited, a:hover, a:active  {
 	color: #b10000;
@@ -16,6 +18,14 @@ img {
 }
 .project_Description {
 	text-align: justify;
+}
+.icon {
+	font-size: 4em;
+}
+@media (max-width:1000px) {
+	.icon {
+		font-size: 3em;
+	}
 }
 @media (max-width:771px) {
 	.project_img {

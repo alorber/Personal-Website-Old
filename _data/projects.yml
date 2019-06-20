@@ -1,19 +1,19 @@
 - name: Sorting Algorithm
-  subtitle: Sorting Algorithm for a Data Structures of Algorithm Course Project
+  subtitle: Sorting Algorithm for a <i>Data Structures and Algorithms</i> Course Project
   date: Spring 2019
   description: The aim of this project was to develop a sorting algorithm that would sort four data sets the fastest. 
     The data sets were comprised of
   icons: 
-    - <i class="devicon-cplusplus-plain colored"></i>
+    - <i class="devicon-cplusplus-plain colored icon"></i>
   pics: 0
   number: 1
 
 - name: Stacks & Queues
-  subtitle: Implementation of a Stack & Queue for a Data Structures of Algorithm Course Project
+  subtitle: Implementation of a Stack & Queue for a <i>Data Structures and Algorithms</i> Course Project
   date: Spring 2019
   description: words
   icons: 
-    - <i class="devicon-cplusplus-plain colored"></i>
+    - <i class="devicon-cplusplus-plain colored icon"></i>
   pics: 0
   number: 2
 
@@ -31,13 +31,13 @@
     Each song will play for 5 seconds before a life is lost.</br></br>I hope to have the game playable online soon.The 
     code can be viewed <a href="https://github.com/alorber/Guess-The-Song"><i>here</i></a>.'
   icons: 
-    - <i class="devicon-bootstrap-plain colored"></i>
-    - <i class="devicon-css3-plain colored"></i>
-    - <i class="devicon-nodejs-plain colored"></i>
-    - <i class="devicon-express-original-wordmark colored"></i>
-    - <i class="devicon-html5-plain-wordmark colored"></i>
-    - <i class="devicon-javascript-plain colored"></i>
-    - <i class="devicon-jquery-plain-wordmark colored"></i>
+    - <i class="devicon-nodejs-plain colored icon"></i>
+    - <i class="devicon-express-original-wordmark colored icon"></i>
+    - <i class="devicon-javascript-plain colored icon"></i>
+    - <i class="devicon-jquery-plain-wordmark colored icon"></i>
+    - <i class="devicon-bootstrap-plain colored icon"></i>
+    - <i class="devicon-html5-plain-wordmark colored icon"></i>
+    - <i class="devicon-css3-plain colored icon"></i>
     # - <i class="fab fa-node"></i>
     # - <i class="fab fa-js-square"></i>
     # - <i class="fab fa-html5"></i>
@@ -57,7 +57,7 @@
     selected group will be randomly chosen.</br></br>My documentation for the project, including a schematic diagram 
     of the circuit, can be viewed <a href='##'>here</a>."
   icons:
-    - <i class="fas fa-3x fa-microchip"></i>
+    - <i class="fas fa-3x fa-microchip icon"></i>
   pics: nil
   number: 4
 
@@ -70,7 +70,7 @@
     to cross); a pedestrian button to shorten the green light to 5 seconds.</br></br>My documentation for the project, 
     including a schematic diagram of the circuit, can be viewed <a href="##">here</a>.'
   icons:
-    - <i class="fas fa-3x fa-microchip"></i>
+    - <i class="fas fa-3x fa-microchip icon"></i>
   pics: nil
   number: 5
 
@@ -79,11 +79,11 @@
   date: Spring 2017
   description: blah
   icons:
-    - <i class="devicon-bootstrap-plain colored"></i>
-    - <i class="devicon-css3-plain colored"></i>
-    - <i class="devicon-html5-plain-wordmark colored"></i>
-    - <i class="devicon-javascript-plain colored"></i>
-    - <i class="devicon-jquery-plain-wordmark colored"></i>
+    - <i class="devicon-javascript-plain colored icon"></i>
+    - <i class="devicon-jquery-plain-wordmark colored icon"></i>
+    - <i class="devicon-bootstrap-plain colored icon"></i>
+    - <i class="devicon-html5-plain-wordmark colored icon"></i>
+    - <i class="devicon-css3-plain colored icon"></i>
     # - <i class="fab fa-js-square"></i>
     # - <i class="fab fa-html5"></i>
   pics: 0

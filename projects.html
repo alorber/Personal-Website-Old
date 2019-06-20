@@ -9,29 +9,34 @@ stylesheet: "projects"
 	<p>Click on a project title to learn more.</p>
 	{% for project in site.data.projects %}
   	<div class="row mt-5 project">
-  		<div class="col  project_titles">
+  		<div class="col align-self-center  project_titles">
   			<h3><a data-toggle="collapse" data-target="#Project_Descr{{project.number}}" href="##" 
-          role="button" aria-expanded="false">{{ project.name }} </a><span style="font-size: .7em">({{project.date}})</span></h3>
+	          role="button" aria-expanded="false">{{ project.name }} </a>
+	          <span style="font-size: .7em">({{project.date}})</span>
+	      	</h3>
   			<h5>{{ project.subtitle }}</h5>
-  		</div>
-  		<div class="col-4 project_img">
-  			{% for icon in project.icons %}
-  			{{icon}}
-  			{% endfor %}
   		</div>
   	</div>
   	<div class="collapse" id="Project_Descr{{project.number}}">
-	   	<div class="row mt-4">
-	  		<div class="col-7">
-	  			<p class="project_Description">{{ project.description }} </p>
-	  		</div>
-	  		{% if project.pics != 0 %}
-	  		<div class="col-5 img_gallery">
+  		<div class="row">
+  			{% if project.pics != 0 %}
+	  		<div class="col img_gallery">
 	  			<img src="https://image.shutterstock.com/image-photo/kiev-ukraine-april-16-2015-450w-276697244.jpg">
 	  		</div>
 	  		{% endif %}
-
-	  	</div> 		
+  		</div>
+	   	<div class="row mt-4">
+	  		<div class="col">
+	  			<p class="project_Description">{{ project.description }}</p>
+	  		</div>
+	  	</div> 
+	  	<div class="row">
+	  		<div class="col align-self-center project_img align-middle">
+	  			{% for icon in project.icons %}
+	  			{{icon}}
+	  			{% endfor %}
+  			</div>
+	  	</div>		
   	</div>
 
   	{% endfor %}
