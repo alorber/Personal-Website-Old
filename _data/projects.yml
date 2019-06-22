@@ -1,34 +1,51 @@
 - name: Sorting Algorithm
-  subtitle: Sorting Algorithm for a <i>Data Structures and Algorithms</i> Course Project
+  subtitle: Sorting Algorithm for a <i>Data Structures and Algorithms</i> Project
   date: Spring 2019
-  description: The aim of this project was to develop a sorting algorithm that would sort four data sets the fastest. 
-    The data sets were comprised of
+  description: 'The aim of this project was to develop a single sorting algorithm that would sort four different 
+    linked lists the fastest. Each node of the linked lists contained a last name, first name, and social security 
+    number (Each ssn was guaranteed to be unique). The four linked lists the program was graded on were not given 
+    before submission, but were described as:<br><br>1) "Approximately (within 1 percent of) 100,000 data objects. 
+    Each data object will store a randomly selected last name, a randomly selected first name, and a randomly generated 
+    social security number."<br>2) "Approximately (within 1 percent of) 1,000,000 data objects. Each data object 
+    will store a randomly selected last name, a randomly selected first name, and a randomly generated social security 
+    number."<br>3) "The same data objects as #2, but they have already been sorted according to last names and 
+    first names (but not according to social security numbers)."<br>4) "Approximately (within 1 percent of) 
+    1,000,000 data objects. Each data object will store the same last name and the same first name (both 
+    selected randomly, but only once), and a randomly generated social security number."<br><br>My code for the assignment 
+    can be viewed <a href="https://github.com/alorber/DSA-Sorting/tree/master"><i>here</i></a>.'
   icons: 
     - <i class="devicon-cplusplus-plain colored icon"></i>
   pics: 0
   number: 1
 
 - name: Stacks & Queues
-  subtitle: Implementation of a Stack & Queue for a <i>Data Structures and Algorithms</i> Course Project
+  subtitle: Implementation of a Stack & Queue for a <i>Data Structures and Algorithms</i> Project
   date: Spring 2019
-  description: words
+  description: 'The aim of this project was to develop a program that would use data structures to implement 
+  a stack and queue. The program would ask the user for an input and output file and then process each instruction 
+  in the input file. The possible instructions are:<br><br>1) Create <i>(name) (stack/queue)</i>: A stack or queue with the specified 
+  name should be created. If it has already been created, the program should throw an error.<br>2) Push <i>(name) 
+  (value)</i>: The value should be pushed to the specified stack or queue. If it does not exist then the program will 
+  throw an error.<br>3) Pop <i>(name)</i>: Pops a value from the specified stack or queue. If it does not exist then the 
+  program will throw an error.<br><br>My code for the assignment can be viewed 
+  <a href="https://github.com/alorber/DSA-Stacks_Queues"><i>here</i></a>.'
   icons: 
     - <i class="devicon-cplusplus-plain colored icon"></i>
   pics: 0
   number: 2
 
 - name: Guess The Song
-  subtitle: Song Guessing Game built over Winter Break to Learn More Backend Web Development.
+  subtitle: Song Guessing Game using the Spotify Web API
   date: Winter 2019
   description: 'I love listening to music and so do my friends. Now and then we would play a game where 
     we would shuffle a playlist on Spotify and see who could guess the song first. I decided to learn backend 
     web development by creating a web version of the game we had been playing mechanically. I learned Node.js and 
     how to work with the Spotify Web API to build <i>Guess The Song</i>. The game requires the user to sign into 
     a premium Spotify account. The user will then decide which playlist to play with and which device they would like 
-    to listen on. </br></br>There are two game modes to try: (1) Time Challenge - The user has 60 seconds to score as many 
+    to listen on. <br><br>There are two game modes to try: (1) Time Challenge - The user has 60 seconds to score as many 
     points as they can. Points are awarded based on how fast the correct answer is chosen. An incorrect choice will 
     subtract 5 seconds. (2) Classic Mode - The user can see how long they can last before they lose all three lives. 
-    Each song will play for 5 seconds before a life is lost.</br></br>I hope to have the game playable online soon.The 
+    Each song will play for 5 seconds before a life is lost.<br><br>I hope to have the game playable online soon. The 
     code can be viewed <a href="https://github.com/alorber/Guess-The-Song"><i>here</i></a>.'
   icons: 
     - <i class="devicon-nodejs-plain colored icon"></i>
@@ -38,61 +55,86 @@
     - <i class="devicon-bootstrap-plain colored icon"></i>
     - <i class="devicon-html5-plain-wordmark colored icon"></i>
     - <i class="devicon-css3-plain colored icon"></i>
-    # - <i class="fab fa-node"></i>
-    # - <i class="fab fa-js-square"></i>
-    # - <i class="fab fa-html5"></i>
-  pics: nil
+
+  pics: 
+    - ../assets/img/Guess_The_Song/Home_Page.png
+    - ../assets/img/Guess_The_Song/Start_Page.png
+    - ../assets/img/Guess_The_Song/Select_Device.png
+    - ../assets/img/Guess_The_Song/Select_Playlist.png
+    - ../assets/img/Guess_The_Song/Game_Modes.png
+    - ../assets/img/Guess_The_Song/Time_Challenge.png
+    - ../assets/img/Guess_The_Song/Classic_Mode.png
+    
   number: 3
 
 - name: Don't Break The Ice
-  subtitle: Logic Game Built Using CMOS Logic Chips for my Digital Logic Design Final Project
+  subtitle: Logic Game Built Using CMOS Logic Chips for my <i>Digital Logic Design</i> Final Project
   date: Fall 2018
-  description: "The final project for Digital Logic Design required each group of 2 students to fully design 
+  description: 'The final project for Digital Logic Design required each group of 2 students to fully design 
     and build a project of their choosing (once the professor approved it) using CMOS logic chips and breadboards. 
-    The project my partner and I built is a logic puzzle / maze.</br></br>The game plays as follows: The goal 
-    is to reach the specified ending position from the specified starting position by stepping on each 'tile' 
-    on an 8x8 matrix of LEDs once and only once. If the player goes over a 'tile' that has already been stepped 
+    The project my partner and I built is a logic puzzle / maze.<br><br>The game plays as follows: The goal 
+    is to reach the specified ending position from the specified starting position by stepping on each "tile" 
+    on an 8x8 matrix of LEDs once and only once. If the player goes over a "tile" that has already been stepped 
     on, then the player will lose. Since it is possible to have an unplayable board if randomly generated, 4 easy 
     boards and 4 hard boards were created. The player can select the difficulty and one of the 4 board from the 
-    selected group will be randomly chosen.</br></br>My documentation for the project, including a schematic diagram 
-    of the circuit, can be viewed <a href='##'>here</a>."
+    selected group will be randomly chosen.<br><br>My documentation for the project, including a schematic diagram 
+    of the circuit, can be viewed <a href="assets/pdf/DBTI_Writeup.pdf">here</a>.'
   icons:
     - <i class="fas fa-3x fa-microchip icon"></i>
-  pics: nil
+  pics: 
+    - ../assets/img/Don't_Break_The_Ice/Board1.png
+    - ../assets/img/Don't_Break_The_Ice/Board2.png
+    - ../assets/img/Don't_Break_The_Ice/Board3.png
+    - ../assets/img/Don't_Break_The_Ice/Board4.png
+    - ../assets/img/Don't_Break_The_Ice/BreadBoards.png
+    - ../assets/img/Don't_Break_The_Ice/Easy_Mode.mov
+    - ../assets/img/Don't_Break_The_Ice/Hard_Mode.mov
+    - ../assets/img/Don't_Break_The_Ice/Collision_Demo.mov
   number: 4
 
 - name: Traffic Light
-  subtitle: Traffic Light Built Using CMOS Logic Chips for a Digital Logic Design Project
+  subtitle: Traffic Light Built Using CMOS Logic Chips for a <i>Digital Logic Design</i> Project
   date: Fall 2018
   description: 'The purpose of this project was to simulate a 4-way traffic light using CMOS logic chips and 
     breadboards. The traffic light included: red, yellow, and green LEDs for all 4 directions; green and yellow turn 
     signals for East and West; a display counting down the seconds left for the green light (time left for pedestrians 
-    to cross); a pedestrian button to shorten the green light to 5 seconds.</br></br>My documentation for the project, 
-    including a schematic diagram of the circuit, can be viewed <a href="##">here</a>.'
+    to cross); a pedestrian button to shorten the green light to 5 seconds.<br><br>My documentation for the project, 
+    including a schematic diagram of the circuit, can be viewed <a href="assets/pdf/Traffic_Light.pdf">here</a>.'
   icons:
     - <i class="fas fa-3x fa-microchip icon"></i>
-  pics: nil
+  pics: 
+    - ../assets/img/Traffic_Light/IMG_2466.jpg
+    - ../assets/img/Traffic_Light/IMG_2465.jpg
+    - ../assets/img/Traffic_Light/TL.MOV
+    - ../assets/img/Traffic_Light/Button_Demo.MOV
   number: 5
 
 - name: Ramaz Artist Project
-  subtitle: Website I built for High School Art Project
+  subtitle: Website for High School Art Project
   date: Spring 2017
-  description: blah
+  description: 'The Ramaz Artist Project was my first experience with web development. During my senior year of 
+    high school, one of my teachers asked me if I would like to build a website for a school art project. Realizing 
+    the opportunity to learn something new, I immediately agreed. I spent a few weeks watching videos online, which 
+    taught me the basics of HTML, CSS, and JavaScript; The rest I learned as I worked on the website.<br><br> The 
+    official description of the project is: <i>The Ramaz Artist Project is an online video series created as a homage 
+    to the Metropolitan Museum of Art’s own Artist Project, in which contemporary artists from around the world explore 
+    and engage with its renowned collection. The Ramaz Artist Project follows twelve senior studio art students as they 
+    vocalize their relationships with the very same body of work.</i><br><br>This project was a great learning 
+    experience and the website can be found <a href="http://artistproject.ramaz.org/index.html">here</a>.'
   icons:
     - <i class="devicon-javascript-plain colored icon"></i>
     - <i class="devicon-jquery-plain-wordmark colored icon"></i>
     - <i class="devicon-bootstrap-plain colored icon"></i>
     - <i class="devicon-html5-plain-wordmark colored icon"></i>
     - <i class="devicon-css3-plain colored icon"></i>
-    # - <i class="fab fa-js-square"></i>
-    # - <i class="fab fa-html5"></i>
   pics: 0
   number: 6
 
   # - name:
   # subtitle:
-  # date: Spring 2019
+  # date: 
   # description:
-  # main_pic:
+  # icons:
   # pics:
   # number: 7
+
