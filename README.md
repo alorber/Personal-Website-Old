@@ -1,2 +1,4 @@
 # Personal-Website
-A personal website to use a portfolio
+My personal website.
+
+Doesn't include most images and files, since they were too large to upload.
