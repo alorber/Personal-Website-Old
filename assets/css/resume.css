@@ -2,6 +2,9 @@ a:link, a:visited, a:hover, a:active  {
 	color: #b10000;
 	text-decoration: none;
 }
+#PDF_Viewer {
+	display: none;
+}
 .pdf {
 	max-width: 700px;
 	width: 100%;
