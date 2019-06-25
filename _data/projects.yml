@@ -78,7 +78,8 @@
     on, then the player will lose. Since it is possible to have an unplayable board if randomly generated, 4 easy 
     boards and 4 hard boards were created. The player can select the difficulty and one of the 4 board from the 
     selected group will be randomly chosen.<br><br>My documentation for the project, including a schematic diagram 
-    of the circuit, can be viewed <a href="assets/pdf/DBTI_Writeup.pdf">here</a>.'
+    of the circuit, can be viewed <a href="assets/pdf/DBTI_Writeup.pdf">here</a>.<br><br>Videos of the project can 
+    be viewed <a href="https://drive.google.com/open?id=1v6VGA_Qe1WpgrP9lPVLcuAgSELYAf6wm">here</a>.'
   icons:
     - <i class="fas fa-3x fa-microchip icon"></i>
   pics: 
@@ -87,9 +88,6 @@
     - ../assets/img/Don't_Break_The_Ice/Board3.png
     - ../assets/img/Don't_Break_The_Ice/Board4.png
     - ../assets/img/Don't_Break_The_Ice/BreadBoards.png
-    - ../assets/img/Don't_Break_The_Ice/Easy_Mode.mov
-    - ../assets/img/Don't_Break_The_Ice/Hard_Mode.mov
-    - ../assets/img/Don't_Break_The_Ice/Collision_Demo.mov
   number: 4
 
 - name: Traffic Light
@@ -99,14 +97,15 @@
     breadboards. The traffic light included: red, yellow, and green LEDs for all 4 directions; green and yellow turn 
     signals for East and West; a display counting down the seconds left for the green light (time left for pedestrians 
     to cross); a pedestrian button to shorten the green light to 5 seconds.<br><br>My documentation for the project, 
-    including a schematic diagram of the circuit, can be viewed <a href="assets/pdf/Traffic_Light.pdf">here</a>.'
+    including a schematic diagram of the circuit, can be viewed <a href="assets/pdf/Traffic_Light.pdf">here</a>.<br>
+    <br>Videos of the project can be viewed <a href="https://drive.google.com/open?id=1VyOwA9sph4R9GMC9qUuipO86Z6CtLZi-">
+    here</a>.'
+
   icons:
     - <i class="fas fa-3x fa-microchip icon"></i>
   pics: 
     - ../assets/img/Traffic_Light/IMG_2466.jpg
     - ../assets/img/Traffic_Light/IMG_2465.jpg
-    - ../assets/img/Traffic_Light/TL.MOV
-    - ../assets/img/Traffic_Light/Button_Demo.MOV
   number: 5
 
 - name: Ramaz Artist Project
