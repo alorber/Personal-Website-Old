@@ -1,6 +1,7 @@
 $(document).ready(function(){
 
-	const word_loop = new TypeIt("#Intro_Words", {loop: true, autoStart: true, cursor: false})
+	// Typing animation loop
+	const word_loop = new TypeIt("#Intro_Loop", {loop: true, autoStart: true, cursor: false})
 						.type("I am a computer engineering major at The Cooper Union.")
 						.pause(2000)
 						.delete()

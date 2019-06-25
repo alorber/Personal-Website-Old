@@ -2,7 +2,7 @@
 	margin-top: 6em;
 }
 #Headshot {
-	width: 400px;
+	max-width: 400px;
 	border-radius: 50%;
 	border: medium solid black;
 }
@@ -19,8 +19,27 @@ p {
 	margin: 0;
 	width: 100%;
 }
-#Intro_Words {
+#Intro_Loop {
 	text-align: center;
 	margin: 0;
 	width: 100%;
+}
+
+@media (max-width:990px) {
+	#Headshot {
+		width: 300px;
+		margin-top: -3em;
+	}
+	#Text_Div {
+		margin-top: 1em;
+		font-size: .7em;
+	}
+}
+@media (max-width: 400px) {
+	#Headshot {
+		width: 200px;
+	}
+	#Intro_Loop {
+		margin-top: -1.5em;
+	}
 }
