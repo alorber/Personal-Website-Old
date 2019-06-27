@@ -3,7 +3,7 @@
   date: Summer 2019
   description: 'The website you are currently viewing was built from scratch. I decided to use this project as a 
   learning experience and used technologies I had not previously used. I learned Jekyll to make the HTML simpler and 
-  nicer, and I used AWS to host the site.<br><br>The code for the site can be view 
+  nicer, and I used AWS to host the site.<br><br>The code for the site can be viewed 
   <a href="https://github.com/alorber/Personal-Website">here</a>.'
   icons: 
     - <i class="devicon-javascript-plain colored icon"></i>
