@@ -21,7 +21,7 @@ a:link, a:visited, a:hover, a:active  {
 	margin: auto;
 	border: medium solid gray;
 }
-img, .carousel-item {
+.proj_img, .carousel-item {
 	max-width: 50vw;
 	max-height: 100%;
 }
@@ -36,15 +36,24 @@ img, .carousel-item {
 .icon {
 	font-size: 4em;
 }
+#Jekyll_Icon {
+	width: 7em;
+	position: relative;
+	bottom: 1.6em;
+}
 @media (max-width:1000px) {
+	.img_div {
+		width: 70vw;
+	}
+	.proj_img, .carousel-item {
+		max-width: 70vw;
+	}
 	.icon {
 		font-size: 3em;
 	}
-	img, .carousel-item {
-		max-width: 70vw;
-	}
-	.img_div {
-		width: 70vw;
+	#Jekyll_Icon {
+		width: 6em;
+		bottom: 1em;
 	}
 }
 @media (max-width:771px) {

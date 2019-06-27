@@ -5,6 +5,9 @@ stylesheet: projects
 js: projects
 ---
 
+<!-- Keeps track of number of projects for bottom border -->
+{% assign proj_number = 7 %}
+
 <div class="container text-center">
 	<h2 class="mt-4" id="Title">Check out my projects!</h2>
 	
@@ -28,7 +31,7 @@ js: projects
 					    {% assign x = 1 %}
 					    {% for pic in project.pics %}
 					    <div class="carousel-item {% if x == 1 %} active {% endif %}">
-					      <img src="{{pic}}" class="d-block w-100" alt="Project Prictures">
+					      <img src="{{pic}}" class="d-block w-100 proj_img" alt="Project Prictures">
 					    </div>
 					    {% assign x = 0 %}
 					    {% endfor %}
@@ -58,7 +61,7 @@ js: projects
 	  			</div>
 		  	</div>		
 	  	</div>
-	  	<div class="row {% if project.number == 6 %} border_bottom {% endif %} mt-5"></div>
+	  	<div class="row {% if project.number == proj_number %} border_bottom {% endif %} mt-5"></div>
 
 	  	{% endfor %}
   	</div>

@@ -1,3 +1,22 @@
+- name: Portfolio Website
+  subtitle: Website To Use As My Portfolio And Resume
+  date: Summer 2019
+  description: 'The website you are currently viewing was built from scratch. I decided to use this project as a 
+  learning experience and used technologies I had not previously used. I learned Jekyll to make the HTML simpler and 
+  nicer, and I used AWS to host the site.<br><br>The code for the site can be view 
+  <a href="https://github.com/alorber/Personal-Website">here</a>.'
+  icons: 
+    - <i class="devicon-javascript-plain colored icon"></i>
+    - <i class="devicon-jquery-plain-wordmark colored icon"></i>
+    - '<img src="../assets/img/jekyll_logo.png" id="Jekyll_Icon">'
+    - <i class="devicon-bootstrap-plain colored icon"></i>
+    - <i class="devicon-html5-plain-wordmark colored icon"></i>
+    - <i class="devicon-css3-plain colored icon"></i>
+    - <i class="devicon-amazonwebservices-plain-wordmark colored icon"></i>
+  pics: 0
+  number: 1
+
+
 - name: Sorting Algorithm
   subtitle: Sorting Algorithm for a <i>Data Structures and Algorithms</i> Project
   date: Spring 2019
@@ -16,7 +35,7 @@
   icons: 
     - <i class="devicon-cplusplus-plain colored icon"></i>
   pics: 0
-  number: 1
+  number: 2
 
 - name: Stacks & Queues
   subtitle: Implementation of a Stack & Queue for a <i>Data Structures and Algorithms</i> Project
@@ -32,7 +51,7 @@
   icons: 
     - <i class="devicon-cplusplus-plain colored icon"></i>
   pics: 0
-  number: 2
+  number: 3
 
 - name: Guess The Song
   subtitle: Song Guessing Game using the Spotify Web API
@@ -65,7 +84,7 @@
     - ../assets/img/Guess_The_Song/Time_Challenge.png
     - ../assets/img/Guess_The_Song/Classic_Mode.png
     
-  number: 3
+  number: 4
 
 - name: Don't Break The Ice
   subtitle: Logic Game Built Using CMOS Logic Chips for my <i>Digital Logic Design</i> Final Project
@@ -88,7 +107,7 @@
     - ../assets/img/Don't_Break_The_Ice/Board3.png
     - ../assets/img/Don't_Break_The_Ice/Board4.png
     - ../assets/img/Don't_Break_The_Ice/BreadBoards.png
-  number: 4
+  number: 5
 
 - name: Traffic Light
   subtitle: Traffic Light Built Using CMOS Logic Chips for a <i>Digital Logic Design</i> Project
@@ -106,7 +125,7 @@
   pics: 
     - ../assets/img/Traffic_Light/IMG_2466.jpg
     - ../assets/img/Traffic_Light/IMG_2465.jpg
-  number: 5
+  number: 6
 
 - name: Ramaz Artist Project
   subtitle: Website for High School Art Project
@@ -127,7 +146,7 @@
     - <i class="devicon-html5-plain-wordmark colored icon"></i>
     - <i class="devicon-css3-plain colored icon"></i>
   pics: 0
-  number: 6
+  number: 7
 
   # - name:
   # subtitle:
