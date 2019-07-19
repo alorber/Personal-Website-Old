@@ -1,42 +1,28 @@
+body {
+	background-color: #759AAB;
+}
 #Row {
 	margin-top: 6em;
 }
-#Headshot {
-	max-width: 400px;
-	border-radius: 50%;
-	border: medium solid black;
-}
 p {
 	font-size: 2.6em;
-}
-#Text_Div {
-	display: flex;
-	justify-content: center;
-	flex-direction: column;
+	color: white;
 }
 #Intro_Text {
 	text-align: center;
 	margin: 0;
 	width: 100%;
+	font-family: "Oswald";
 }
 #Intro_Loop {
 	text-align: center;
 	margin: 0;
 	width: 100%;
+	font-family: "Oswald";
 }
 
 @media (max-width:990px) {
-	#Headshot {
-		width: 300px;
-		margin-top: -3em;
-	}
 	#Text_Div {
-		margin-top: 1em;
 		font-size: .7em;
-	}
-}
-@media (max-width: 400px) {
-	#Headshot {
-		width: 200px;
 	}
 }
