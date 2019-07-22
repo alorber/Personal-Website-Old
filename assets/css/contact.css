@@ -6,17 +6,13 @@ a:link, a:visited, a:hover, a:active  {
 	text-decoration: none;
 }
 i {
-	font-size: 2.5em;
-	margin-right: 1em;
-	float: right;
-	padding-top: .3em;
+	float: none;
+	font-size: 6em;
+	margin: auto;
 }
 .button_text {
 	color: white;
 	padding-top: .5em;
-}
-.bttn_div {
-	padding-right: 15vw;
 }
 /* LinkedIn */
 .fa-linkedin {
@@ -51,12 +47,7 @@ i {
 }
 
 @media (max-width:771px) {
-	.bttn_div {
-		display: none;
-	}
 	i {
-		float: none;
 		font-size: 4em;
-		margin: auto;
 	}
 }
