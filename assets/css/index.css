@@ -22,7 +22,10 @@ p {
 }
 
 @media (max-width:990px) {
-	#Text_Div {
-		font-size: .7em;
+	#Row {
+		margin-top: 2em;
+	}
+	p {
+		font-size: 2.3em;
 	}
 }
