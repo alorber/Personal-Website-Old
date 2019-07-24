@@ -1,20 +1,10 @@
-body {
-	background-color: #759AAB;
-}
 #Row {
 	margin-top: 6em;
 }
 p {
 	font-size: 2.6em;
-	color: white;
 }
-#Intro_Text {
-	text-align: center;
-	margin: 0;
-	width: 100%;
-	font-family: "Oswald";
-}
-#Intro_Loop {
+#Intro_Text, #Intro_Loop {
 	text-align: center;
 	margin: 0;
 	width: 100%;

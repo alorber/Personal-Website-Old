@@ -3,6 +3,7 @@ body {
 	padding-bottom: 60px;
 	font-family: 'PT Sans', 'sans-serif';
 	font-size: 18px;
+	background-color: #759AAB;
 }
 /*Nav bar*/
 #logo {
@@ -31,4 +32,13 @@ body {
 		xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' \
 		stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 \
 		15h22M4 23h22'/%3E%3C/svg%3E") !important;
+}
+/* Page Colors */
+p, h1, h2, h3, h5, li {
+	color:white ;
+}
+
+a:link, a:visited, a:hover, a:active  {
+	color: #b10000;
+	text-decoration: none;
 }
