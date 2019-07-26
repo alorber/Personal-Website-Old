@@ -2,10 +2,10 @@
 	display: none;
 }
 .project {
-	border-top: medium dotted black;
+	border-top: medium dotted white;
 }
 .border_bottom {
-	border-bottom: medium dotted black;
+	border-bottom: medium dotted white;
 	margin-bottom: 2em;
 }
 .project_titles{
