@@ -7,8 +7,8 @@
   play against the AI or have the AI play itself, the user can decide how long the AI has to move, and the user 
   can decide the starting player. The AI was implemented by a minimax search with alpha-beta pruning and 
   iterative deepening. I developed and thoroughly tested the heuristic that the AI uses by having the AI play 
-  against itself with different heuristics, tweaking the one that lost. The code for the project can be 
-  found <i><a href="https://github.com/alorber/AI-Checkers">here</a></i> on my github. The write-up for the 
+  against itself with different heuristics, tweaking the one that lost.<br><br>The code for the project can be 
+  found <i><a href="https://github.com/alorber/AI-Checkers">here</a></i> on my github.<br><br>The write-up for the 
   project, describing my implementation in more detail, can be read 
   <i><a href="assets/pdf/AI_Project_1_Writeup.pdf">here</a></i>.'
   icons: 
