@@ -26,7 +26,7 @@
     Also an introduction to analysis of algorithms with big-O notation.
   number: 4
 
-- name: Artificial Intelligence (Fall 2019)
+- name: Artificial Intelligence
   description: "This course covers many subtopics of AI, focusing on a few important subtopics in detail. 
     The 'intelligent agent' approach is explained and forms a foundation for the rest of the course. 
     Intelligent search: uninformedsearch, depth-first search, breadth-first search, iterative deepening; 
@@ -36,3 +36,12 @@
     support vector machines. Natural language processing: syntax, semantics and pragmatics; real-world knowledge; 
     parsing; statistical NLP. Philosophy of AI: AI and consciousness, the Turing test, the Chinese room experiment."
   number: 5
+
+- name: Communication Networks 
+  description: Analysis and design of communication networks. Network protocols, architecture, security, 
+    privacy, routing and congestion control, Internet, local area networks, wireless networks, multimedia 
+    services. Physical layer, multiple access techniques, transport layer. Introduction to probabilistic and 
+    stochastic analytic techniques for communication networks.
+  number: 6
+
+
