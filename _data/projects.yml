@@ -1,3 +1,26 @@
+- name: Neural Network
+  subtitle: Neural Network for <i>Artificial Intelligence</i> Project
+  date: Fall 2019
+  description: 'Project 2 of my artificial intelligence course was to build a neural network from scratch. 
+  The program allows for the training and testing of a neural network containing one hidden layer. The expected 
+  outputs for training and testing examples will always be 1 or 0, respectively indicating inclusion or exclusion 
+  from some Boolean class.<br><br>When the neural network is trained, the program will prompt the user for for the names 
+  of three text files representing the initial neural network, a training set, and an output file; one positive 
+  integer representing the number of epochs; and one floating-point value representing the learning rate. The first 
+  text file will specify the number of input nodes, hidden nodes, and output nodes. The training is done using 
+  back-propagation.<br><br>When the neural network is tested, the program will prompt the user for the names of three 
+  text files representing a trained neural network, a testing set, and an output file. Four metrics are calculated 
+  for each Boolean output class: Overall Accuracy, Precision, Recall, and F1. These metrics are also calculated 
+  for the entire data-set using mico-averaging and macro-averaging.<br><br>Additionally, each student was required 
+  to create or find an interesting dataset that can be used to train and test neural networks adhering to the 
+  specifications of this assignment. The description of my custom data-set can be 
+  read <i><a href="assets/pdf/AI_Project_2_Writeup.pdf">here</a></i>.<br><br>The code for the project can be 
+  found <i><a href="https://github.com/alorber/AI-Neural_Network">here</a></i> on my github.'
+  icons: 
+    - <i class="devicon-cplusplus-plain colored icon"></i>
+  pics: 0
+  number: 1
+
 - name: Checkers AI
   subtitle: Artificial Intelligence That Plays Checkers
   date: Fall 2019
@@ -14,7 +37,7 @@
   icons: 
     - <i class="devicon-cplusplus-plain colored icon"></i>
   pics: 0
-  number: 1
+  number: 2
 
 - name: Portfolio Website
   subtitle: Website To Use As My Portfolio And Resume
@@ -32,7 +55,7 @@
     - <i class="devicon-css3-plain colored icon"></i>
     - <i class="devicon-amazonwebservices-plain-wordmark colored icon"></i>
   pics: 0
-  number: 2
+  number: 3
 
 
 - name: Sorting Algorithm
@@ -53,7 +76,7 @@
   icons: 
     - <i class="devicon-cplusplus-plain colored icon"></i>
   pics: 0
-  number: 3
+  number: 4
 
 - name: Stacks & Queues
   subtitle: Implementation of a Stack & Queue for a <i>Data Structures and Algorithms</i> Project
@@ -69,7 +92,7 @@
   icons: 
     - <i class="devicon-cplusplus-plain colored icon"></i>
   pics: 0
-  number: 4
+  number: 5
 
 - name: Guess The Song
   subtitle: Song Guessing Game using the Spotify Web API
@@ -102,7 +125,7 @@
     - ../assets/img/Guess_The_Song/Time_Challenge.png
     - ../assets/img/Guess_The_Song/Classic_Mode.png
     
-  number: 5
+  number: 6
 
 - name: Don't Break The Ice
   subtitle: Logic Game Built Using CMOS Logic Chips for my <i>Digital Logic Design</i> Final Project
@@ -125,7 +148,7 @@
     - ../assets/img/Don't_Break_The_Ice/Board3.png
     - ../assets/img/Don't_Break_The_Ice/Board4.png
     - ../assets/img/Don't_Break_The_Ice/BreadBoards.png
-  number: 6
+  number: 7
 
 - name: Traffic Light
   subtitle: Traffic Light Built Using CMOS Logic Chips for a <i>Digital Logic Design</i> Project
@@ -143,7 +166,7 @@
   pics: 
     - ../assets/img/Traffic_Light/IMG_2466.jpg
     - ../assets/img/Traffic_Light/IMG_2465.jpg
-  number: 7
+  number: 8
 
 - name: Ramaz Artist Project
   subtitle: Website for High School Art Project
@@ -164,13 +187,6 @@
     - <i class="devicon-html5-plain-wordmark colored icon"></i>
     - <i class="devicon-css3-plain colored icon"></i>
   pics: 0
-  number: 8
+  number: 9
 
-  # - name:
-  # subtitle:
-  # date: 
-  # description:
-  # icons:
-  # pics:
-  # number: 7
 
