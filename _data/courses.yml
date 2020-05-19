@@ -44,14 +44,14 @@
     stochastic analytic techniques for communication networks.
   number: 6
 
-- name: Data Structures and Algorithms II
+- name: Data Structures and Algorithms II (Fall 2020)
   description: A continuation of Data Structures and Algorithms, also with an emphasis on practical implementation 
     issues and good programming methodology. Topics include graphs, graph-related algorithms and dynamic programming 
     techniques. Also an introduction to some advanced topics such as Turing machines, computability and 
     NP-complete systems. Assignments include programming projects and problem sets.
   number: 7
 
-- name: Computer Operating Systems
+- name: Computer Operating Systems (Fall 2020)
   description: "Theory and implementation of modern computer operating systems. Topics include: Message based 
     and multiprocessor kernels, networking, interprocess communication, security, auditing, authentication, 
     device drivers, interrupt handling, task switching, virtual memory, memory management, scheduling, 
@@ -59,7 +59,7 @@
     high security operating systems, user environment and interface issues."
   number: 8
 
-- name: Deep Learning
+- name: Deep Learning (Fall 2020)
   description: "Course topics include: Differentiable directed acyclic graphs covering applications in 
     unsupervised learning; generative and discriminative modeling; gradient-based methods for optimization 
     (stochastic gradient descent, Nesterov momentum, adam); fast gradient computation for arbitrary computational 
