@@ -44,12 +44,21 @@
     stochastic analytic techniques for communication networks.
   number: 6
 
+- name: Frequentist Machine Learning
+  description: "Topics include: Statistical inference, exploratory data analysis and data visualization. 
+    Linear regression methods such as ridge, LASSO, elastic net. Classification methods such as logistic 
+    regression, SVM. Regularization and feature selection methods. Additive models. Classification and 
+    regression trees including random forests and extreme gradient boosting. Model selection and cross 
+    validation. Unsupervised learning methods such as market basket analysis and the a-priori method. 
+    Non-negative matrix factorization and recommendation systems."
+  number: 7
+
 - name: Data Structures and Algorithms II (Fall 2020)
   description: A continuation of Data Structures and Algorithms, also with an emphasis on practical implementation 
     issues and good programming methodology. Topics include graphs, graph-related algorithms and dynamic programming 
     techniques. Also an introduction to some advanced topics such as Turing machines, computability and 
     NP-complete systems. Assignments include programming projects and problem sets.
-  number: 7
+  number: 8
 
 - name: Computer Operating Systems (Fall 2020)
   description: "Theory and implementation of modern computer operating systems. Topics include: Message based 
@@ -57,7 +66,7 @@
     device drivers, interrupt handling, task switching, virtual memory, memory management, scheduling, 
     synchronization, locking, file systems, resource allocation and management, real-time fault-tolerant and 
     high security operating systems, user environment and interface issues."
-  number: 8
+  number: 9
 
 - name: Deep Learning (Fall 2020)
   description: "Course topics include: Differentiable directed acyclic graphs covering applications in 
@@ -67,6 +76,6 @@
     arbitrary graphs for regression, classification and ranking; autoencoders; adversarial networks and variations 
     for unsupervised representation learning; generative modeling and other applications. Focus on applications in 
     computer vision, speech processing and research problems in communication theory."
-  number: 9
+  number: 10
 
 
