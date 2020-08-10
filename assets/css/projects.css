@@ -32,7 +32,7 @@
 .icon {
 	font-size: 4em;
 }
-#Jekyll_Icon {
+#Jekyll_Icon, #Scikit_Icon {
 	width: 7em;
 	position: relative;
 	bottom: 1.6em;

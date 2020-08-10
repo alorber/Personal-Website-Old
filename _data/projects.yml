@@ -1,51 +1,74 @@
+- name: Frequentist Machine Learning Projects
+  subtitle: Projects for my <i>Frequentist Machine Learning</i> Course
+  date: Summer 2020
+  description: 'This summer, while working for <a href="https://cooper.edu/engineering/summer-stem">
+  <i>The Cooper Union Summer STEM program</i></a>, I took a frequentist machine learning course that consisted
+  of seven small projects, each focusing on a different machine learning model or topic.
+  </br></br>Click on a topic to see the project description and code:
+  </br></br>Project 1: <a href="https://github.com/alorber/Frequentist-Machine-Learning-Projects/tree/master/Project%201%20-%20Linear%20Regression">Linear Regression</a>
+  </br>Project 2: <a href="https://github.com/alorber/Frequentist-Machine-Learning-Projects/tree/master/Project%202%20-%20Logistic%20Regression">Logistic Regression</a>
+  </br>Project 3: <a href="https://github.com/alorber/Frequentist-Machine-Learning-Projects/tree/master/Project%203%20-%20Cross%20Validation">Cross Validation</a>
+  </br>Project 4: <a href="https://github.com/alorber/Frequentist-Machine-Learning-Projects/tree/master/Project%204%20-%20Gradient%20Boosted%20Trees">Gradient Boosted Trees</a>
+  </br>Project 5: <a href="https://github.com/alorber/Frequentist-Machine-Learning-Projects/tree/master/Project%205%20-%20Random%20Forest">Random Forest</a>
+  </br>Project 6: <a href="https://github.com/alorber/Frequentist-Machine-Learning-Projects/tree/master/Project%206%20-%20Nonnegative%20Matrix%20Factorization">Non-Negative Matrix Factorization</a>
+  </br>Project 7: <a href="https://github.com/alorber/Frequentist-Machine-Learning-Projects/tree/master/Project%207%20-%20Market%20Basket%20Analysis">Market Basket Analysis</a>'
+  icons: 
+    - <i class="devicon-python-plain-wordmark colored icon"></i>
+    - '<img src="../assets/img/scikit_logo.png" id="Scikit_Icon">'
+  pics: 0
+  number: 1
+
 - name: Neural Network
   subtitle: Neural Network for <i>Artificial Intelligence</i> Project
   date: Fall 2019
-  description: 'Project 2 of my artificial intelligence course was to build a neural network from scratch. 
+  description: 'Project 2 of my <i>Artificial Intelligence</i> course was to build a neural network from scratch. 
   The program allows for the training and testing of a neural network containing one hidden layer. The expected 
   outputs for training and testing examples will always be 1 or 0, respectively indicating inclusion or exclusion 
-  from some Boolean class.<br><br>When the neural network is trained, the program will prompt the user for for the names 
-  of three text files representing the initial neural network, a training set, and an output file; one positive 
-  integer representing the number of epochs; and one floating-point value representing the learning rate. The first 
-  text file will specify the number of input nodes, hidden nodes, and output nodes. The training is done using 
-  back-propagation.<br><br>When the neural network is tested, the program will prompt the user for the names of three 
+  from some Boolean class.
+  <br><br>When the neural network is trained, the program will prompt the user for the names of three text files 
+  representing the initial neural network, a training set, and an output file; one positive integer representing 
+  the number of epochs; and one floating-point value representing the learning rate. The first text file will 
+  specify the number of input nodes, hidden nodes, and output nodes. The training is done using back-propagation.
+  <br><br>When the neural network is tested, the program will prompt the user for the names of three 
   text files representing a trained neural network, a testing set, and an output file. Four metrics are calculated 
   for each Boolean output class: Overall Accuracy, Precision, Recall, and F1. These metrics are also calculated 
-  for the entire data-set using mico-averaging and macro-averaging.<br><br>Additionally, each student was required 
-  to create or find an interesting dataset that can be used to train and test neural networks adhering to the 
-  specifications of this assignment. The description of my custom data-set can be 
-  read <i><a href="assets/pdf/AI_Project_2_Writeup.pdf">here</a></i>.<br><br>The code for the project can be 
-  found <i><a href="https://github.com/alorber/AI-Neural_Network">here</a></i> on my github.'
+  for the entire data-set using mico-averaging and macro-averaging.
+  <br><br>Additionally, each student was required to create or find an interesting dataset that can be used 
+  to train and test neural networks adhering to the specifications of this assignment. The description of 
+  my custom data-set can be read <i><a href="assets/pdf/AI_Project_2_Writeup.pdf">here</a></i>.
+  <br><br>The code for the project can be found <i><a href="https://github.com/alorber/AI-Neural_Network">here
+  </a></i> on my github.'
   icons: 
     - <i class="devicon-cplusplus-plain colored icon"></i>
   pics: 0
-  number: 1
+  number: 2
 
 - name: Checkers AI
   subtitle: Artificial Intelligence That Plays Checkers
   date: Fall 2019
-  description: 'The first project in my Artificial Intelligence course was to build the game of checkers and 
+  description: 'The first project in my <i>Artificial Intelligence</i> course was to build the game of checkers and 
   an AI to play against the user. I built the game with an ASCII interface, allowing the user to select from 
   multiple options and game modes. The user can begin a new game or import a custom board, the user can either 
   play against the AI or have the AI play itself, the user can decide how long the AI has to move, and the user 
   can decide the starting player. The AI was implemented by a minimax search with alpha-beta pruning and 
   iterative deepening. I developed and thoroughly tested the heuristic that the AI uses by having the AI play 
-  against itself with different heuristics, tweaking the one that lost.<br><br>The code for the project can be 
-  found <i><a href="https://github.com/alorber/AI-Checkers">here</a></i> on my github.<br><br>The write-up for the 
-  project, describing my implementation in more detail, can be read 
+  against itself with different heuristics, tweaking the one that lost.
+  <br><br>The code for the project can be found <i><a href="https://github.com/alorber/AI-Checkers">here</a></i> 
+  on my github.
+  <br><br>The write-up for the project, describing my implementation in more detail, can be read 
   <i><a href="assets/pdf/AI_Project_1_Writeup.pdf">here</a></i>.'
   icons: 
     - <i class="devicon-cplusplus-plain colored icon"></i>
   pics: 0
-  number: 2
+  number: 3
 
 - name: Portfolio Website
   subtitle: Website To Use As My Portfolio And Resume
   date: Summer 2019
   description: 'The website you are currently viewing was built from scratch. I decided to use this project as a 
   learning experience and used technologies I had not previously used. I learned Jekyll to make the HTML simpler and 
-  nicer, and I used AWS to host the site.<br><br>The code for the site can be viewed 
-  <i><a href="https://github.com/alorber/Personal-Website">here</a></i>.'
+  nicer, and I used AWS to host the site.
+  <br><br>The code for the site can be viewed <i><a href="https://github.com/alorber/Personal-Website">here</a></i>.'
   icons: 
     - <i class="devicon-javascript-plain colored icon"></i>
     - <i class="devicon-jquery-plain-wordmark colored icon"></i>
@@ -55,7 +78,7 @@
     - <i class="devicon-css3-plain colored icon"></i>
     - <i class="devicon-amazonwebservices-plain-wordmark colored icon"></i>
   pics: 0
-  number: 3
+  number: 4
 
 
 - name: Sorting Algorithm
@@ -64,35 +87,43 @@
   description: 'The aim of this project was to develop a single sorting algorithm that would sort four different 
     linked lists the fastest. Each node of the linked lists contained a last name, first name, and social security 
     number (Each ssn was guaranteed to be unique). The four linked lists the program was graded on were not given 
-    before submission, but were described as:<br><br>1) "Approximately (within 1 percent of) 100,000 data objects. 
+    before submission, but were described as:
+    <br><br>1) "Approximately (within 1 percent of) 100,000 data objects. 
     Each data object will store a randomly selected last name, a randomly selected first name, and a randomly generated 
-    social security number."<br>2) "Approximately (within 1 percent of) 1,000,000 data objects. Each data object 
+    social security number."
+    <br>2) "Approximately (within 1 percent of) 1,000,000 data objects. Each data object 
     will store a randomly selected last name, a randomly selected first name, and a randomly generated social security 
-    number."<br>3) "The same data objects as #2, but they have already been sorted according to last names and 
-    first names (but not according to social security numbers)."<br>4) "Approximately (within 1 percent of) 
-    1,000,000 data objects. Each data object will store the same last name and the same first name (both 
-    selected randomly, but only once), and a randomly generated social security number."<br><br>My code for the assignment 
-    can be viewed <a href="https://github.com/alorber/DSA-Sorting/tree/master"><i>here</i></a>.'
+    number."
+    <br>3) "The same data objects as #2, but they have already been sorted according to last names and 
+    first names (but not according to social security numbers)."
+    <br>4) "Approximately (within 1 percent of) 1,000,000 data objects. Each data object will store the same 
+    last name and the same first name (both selected randomly, but only once), and a randomly generated social 
+    security number."<br><br>My code for the assignment can be viewed 
+    <a href="https://github.com/alorber/DSA-Sorting/tree/master"><i>here</i></a>.'
   icons: 
     - <i class="devicon-cplusplus-plain colored icon"></i>
   pics: 0
-  number: 4
+  number: 5
 
 - name: Stacks & Queues
   subtitle: Implementation of a Stack & Queue for a <i>Data Structures and Algorithms</i> Project
   date: Spring 2019
   description: 'The aim of this project was to develop a program that would use data structures to implement 
   a stack and queue. The program would ask the user for an input and output file and then process each instruction 
-  in the input file. The possible instructions are:<br><br>1) Create <i>(name) (stack/queue)</i>: A stack or queue with the specified 
-  name should be created. If it has already been created, the program should throw an error.<br>2) Push <i>(name) 
+  in the input file. The possible instructions are:
+  <br><br>1) Create <i>(name) (stack/queue)</i>: A stack or queue with the specified 
+  name should be created. If it has already been created, the program should throw an error.
+  <br>2) Push <i>(name) 
   (value)</i>: The value should be pushed to the specified stack or queue. If it does not exist then the program will 
-  throw an error.<br>3) Pop <i>(name)</i>: Pops a value from the specified stack or queue. If it does not exist then the 
-  program will throw an error.<br><br>My code for the assignment can be viewed 
+  throw an error.
+  <br>3) Pop <i>(name)</i>: Pops a value from the specified stack or queue. If it does not exist then the 
+  program will throw an error.
+  <br><br>My code for the assignment can be viewed 
   <a href="https://github.com/alorber/DSA-Stacks_Queues"><i>here</i></a>.'
   icons: 
     - <i class="devicon-cplusplus-plain colored icon"></i>
   pics: 0
-  number: 5
+  number: 6
 
 - name: Guess The Song
   subtitle: Song Guessing Game using the Spotify Web API
@@ -102,11 +133,13 @@
     web development by creating a web version of the game we had been playing mechanically. I learned Node.js and 
     how to work with the Spotify Web API to build <i>Guess The Song</i>. The game requires the user to sign into 
     a premium Spotify account. The user will then decide which playlist to play with and which device they would like 
-    to listen on. <br><br>There are two game modes to try: (1) Time Challenge - The user has 60 seconds to score as many 
+    to listen on. 
+    <br><br>There are two game modes to try: (1) Time Challenge - The user has 60 seconds to score as many 
     points as they can. Points are awarded based on how fast the correct answer is chosen. An incorrect choice will 
     subtract 5 seconds. (2) Classic Mode - The user can see how long they can last before they lose all three lives. 
-    Each song will play for 5 seconds before a life is lost.<br><br>I hope to have the game playable online soon. The 
-    code can be viewed <a href="https://github.com/alorber/Guess-The-Song"><i>here</i></a>.'
+    Each song will play for 5 seconds before a life is lost.
+    <br><br>The code for the project can be viewed 
+    <a href="https://github.com/alorber/Guess-The-Song"><i>here</i></a>.'
   icons: 
     - <i class="devicon-nodejs-plain colored icon"></i>
     - <i class="devicon-express-original-wordmark colored icon"></i>
@@ -125,21 +158,22 @@
     - ../assets/img/Guess_The_Song/Time_Challenge.png
     - ../assets/img/Guess_The_Song/Classic_Mode.png
     
-  number: 6
+  number: 7
 
 - name: Don't Break The Ice
   subtitle: Logic Game Built Using CMOS Logic Chips for my <i>Digital Logic Design</i> Final Project
   date: Fall 2018
-  description: 'The final project for Digital Logic Design required each group of 2 students to fully design 
+  description: 'The final project for <i>Digital Logic Design</i> required each group of 2 students to fully design 
     and build a project of their choosing (once the professor approved it) using CMOS logic chips and breadboards. 
-    The project my partner and I built is a logic puzzle / maze.<br><br>The game plays as follows: The goal 
-    is to reach the specified ending position from the specified starting position by stepping on each "tile" 
-    on an 8x8 matrix of LEDs once and only once. If the player goes over a "tile" that has already been stepped 
-    on, then the player will lose. Since it is possible to have an unplayable board if randomly generated, 4 easy 
-    boards and 4 hard boards were created. The player can select the difficulty and one of the 4 board from the 
-    selected group will be randomly chosen.<br><br>My documentation for the project, including a schematic diagram 
-    of the circuit, can be viewed <a href="assets/pdf/DBTI_Writeup.pdf">here</a>.<br><br>Videos of the project can 
-    be viewed <a href="https://drive.google.com/open?id=1v6VGA_Qe1WpgrP9lPVLcuAgSELYAf6wm">here</a>.'
+    The project my partner and I built is a logic puzzle / maze.
+    <br><br>The game plays as follows: The goal is to reach the specified ending position from the specified 
+    starting position by stepping on each "tile" on an 8x8 matrix of LEDs once and only once. If the player 
+    goes over a "tile" that has already been stepped on, then the player will lose. Since it is possible to 
+    have an unplayable board if randomly generated, 4 easy boards and 4 hard boards were created. The player 
+    can select the difficulty and one of the 4 board from the selected group will be randomly chosen.
+    <br><br>My documentation for the project, including a schematic diagram of the circuit, can be viewed 
+    <a href="assets/pdf/DBTI_Writeup.pdf">here</a>.<br><br>Videos of the project can be viewed 
+    <a href="https://drive.google.com/open?id=1v6VGA_Qe1WpgrP9lPVLcuAgSELYAf6wm">here</a>.'
   icons:
     - <i class="fas fa-3x fa-microchip icon"></i>
   pics: 
@@ -148,7 +182,7 @@
     - ../assets/img/Don't_Break_The_Ice/Board3.png
     - ../assets/img/Don't_Break_The_Ice/Board4.png
     - ../assets/img/Don't_Break_The_Ice/BreadBoards.png
-  number: 7
+  number: 8
 
 - name: Traffic Light
   subtitle: Traffic Light Built Using CMOS Logic Chips for a <i>Digital Logic Design</i> Project
@@ -156,9 +190,10 @@
   description: 'The purpose of this project was to simulate a 4-way traffic light using CMOS logic chips and 
     breadboards. The traffic light included: red, yellow, and green LEDs for all 4 directions; green and yellow turn 
     signals for East and West; a display counting down the seconds left for the green light (time left for pedestrians 
-    to cross); a pedestrian button to shorten the green light to 5 seconds.<br><br>My documentation for the project, 
-    including a schematic diagram of the circuit, can be viewed <a href="assets/pdf/Traffic_Light.pdf">here</a>.<br>
-    <br>Videos of the project can be viewed <a href="https://drive.google.com/open?id=1VyOwA9sph4R9GMC9qUuipO86Z6CtLZi-">
+    to cross); a pedestrian button to shorten the green light to 5 seconds.
+    <br><br>My documentation for the project, including a schematic diagram of the circuit, can be viewed 
+    <a href="assets/pdf/Traffic_Light.pdf">here</a>.
+    <br><br>Videos of the project can be viewed <a href="https://drive.google.com/open?id=1VyOwA9sph4R9GMC9qUuipO86Z6CtLZi-">
     here</a>.'
 
   icons:
@@ -166,7 +201,7 @@
   pics: 
     - ../assets/img/Traffic_Light/IMG_2466.jpg
     - ../assets/img/Traffic_Light/IMG_2465.jpg
-  number: 8
+  number: 9
 
 - name: Ramaz Artist Project
   subtitle: Website for High School Art Project
@@ -174,12 +209,13 @@
   description: 'The Ramaz Artist Project was my first experience with web development. During my senior year of 
     high school, one of my teachers asked me if I would like to build a website for a school art project. Realizing 
     the opportunity to learn something new, I immediately agreed. I spent a few weeks watching videos online, which 
-    taught me the basics of HTML, CSS, and JavaScript; The rest I learned as I worked on the website.<br><br> The 
-    official description of the project is: <i>The Ramaz Artist Project is an online video series created as a homage 
-    to the Metropolitan Museum of Art’s own Artist Project, in which contemporary artists from around the world explore 
-    and engage with its renowned collection. The Ramaz Artist Project follows twelve senior studio art students as they 
-    vocalize their relationships with the very same body of work.</i><br><br>This project was a great learning 
-    experience and the website can be found <a href="http://artistproject.ramaz.org/index.html">here</a>.'
+    taught me the basics of HTML, CSS, and JavaScript; The rest I learned as I worked on the website.
+    <br><br> The official description of the project is: <i>The Ramaz Artist Project is an online video series 
+    created as a homage to the Metropolitan Museum of Art’s own Artist Project, in which contemporary artists 
+    from around the world explore and engage with its renowned collection. The Ramaz Artist Project follows 
+    twelve senior studio art students as they vocalize their relationships with the very same body of work.</i>
+    <br><br>This project was a great learning experience and the website can be found 
+    <a href="http://artistproject.ramaz.org/index.html">here</a>.'
   icons:
     - <i class="devicon-javascript-plain colored icon"></i>
     - <i class="devicon-jquery-plain-wordmark colored icon"></i>
@@ -187,6 +223,6 @@
     - <i class="devicon-html5-plain-wordmark colored icon"></i>
     - <i class="devicon-css3-plain colored icon"></i>
   pics: 0
-  number: 9
+  number: 10
 
 
