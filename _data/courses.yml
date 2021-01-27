@@ -53,14 +53,14 @@
     Non-negative matrix factorization and recommendation systems."
   number: 7
 
-- name: Data Structures and Algorithms II (Fall 2020)
+- name: Data Structures and Algorithms II
   description: A continuation of Data Structures and Algorithms, also with an emphasis on practical implementation 
     issues and good programming methodology. Topics include graphs, graph-related algorithms and dynamic programming 
     techniques. Also an introduction to some advanced topics such as Turing machines, computability and 
     NP-complete systems. Assignments include programming projects and problem sets.
   number: 8
 
-- name: Computer Operating Systems (Fall 2020)
+- name: Computer Operating Systems
   description: "Theory and implementation of modern computer operating systems. Topics include: Message based 
     and multiprocessor kernels, networking, interprocess communication, security, auditing, authentication, 
     device drivers, interrupt handling, task switching, virtual memory, memory management, scheduling, 
@@ -68,7 +68,7 @@
     high security operating systems, user environment and interface issues."
   number: 9
 
-- name: Deep Learning (Fall 2020)
+- name: Deep Learning
   description: "Course topics include: Differentiable directed acyclic graphs covering applications in 
     unsupervised learning; generative and discriminative modeling; gradient-based methods for optimization 
     (stochastic gradient descent, Nesterov momentum, adam); fast gradient computation for arbitrary computational 
@@ -77,5 +77,29 @@
     for unsupervised representation learning; generative modeling and other applications. Focus on applications in 
     computer vision, speech processing and research problems in communication theory."
   number: 10
+
+- name: Natural Language Processing (Spring '21)
+  description: "This course focuses on computational applications involving the processing of written or spoken human 
+    languages. Theoretical subtopics will likely include word statistics, formal and natural language grammars, computational 
+    linguistics, hidden Markov models, and various machine learning methods. Applications covered will likely include 
+    information retrieval, information extraction, text categorization, question answering, summarization, machine translation 
+    and speech recognition."
+  number: 11
+
+- name: Software Engineering & Large System Design (Spring '21)
+  description: "This course teaches about the development stages of large, robust, expandable software systems developed 
+    as part of a team. Topics include project management, capturing requirements, system design, UML, program design, 
+    testing, delivery and maintenance. The class will develop a large project as a team using Java throughout the semester. 
+    Tools, libraries and techniques necessary for the project will be covered in class, e.g., Eclipse, Javadoc, XML, SOAP, 
+    servlets, threads and processes, Swing, JUnit, mySQL, JDBC, etc."
+  number: 12
+
+- name: Compilers (Spring '21)
+  description: "The theory, design and implementation of a practical compiler. Finite automata, LL and LR parsing, attribute 
+    grammars, syntax-directed translation, symbol tables and scopes, type systems and representations, abstract syntax trees, 
+    intermediate representation, basic blocks, data and control flow optimizations, assembly language generation including 
+    registe and instruction selection. Students apply tools such as Flex and Bison to writing a functional compiler for a subset 
+    of a real programming language such as C."
+  number: 13
 
 
