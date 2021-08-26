@@ -1,3 +1,74 @@
+- name: Cooper's Cupids
+  subtitle: A dating web-app built using React, Java, & MySQL
+  date: Spring 2021
+  description: "Cooper's Cupids is a dating webapp built as a term project for ECE 366 - Software Engineering & Large System Design. 
+  The frontend was built by me with React, and the backend was developed by my partner in Java (Spark) and MySQL. The site is fully 
+  responsive and contains features expected of a dating app, including: Sign up / Login; Profile Creation / Editing; User Feed & 
+  Like / Dislike Mechanic; User Matching; User Messaging.
+  </br></br>More information on the project, as well as the source code, can be found <a href='https://github.com/alorber/Coopers-Cupids'>here</a>."
+  icons: 
+    - <i class="devicon-react-original-wordmark icon"></i>
+    - <i class="devicon-java-plain-wordmark icon"></i>
+    - <i class="devicon-spring-plain-wordmark icon"></i>
+    - <i class="devicon-mysql-plain-wordmark icon"></i>
+  pics:
+    - ../assets/img/Coopers_Cupids/Home1.png
+    - ../assets/img/Coopers_Cupids/Home2.png
+    - ../assets/img/Coopers_Cupids/Profile1.png
+    - ../assets/img/Coopers_Cupids/Profile2.png
+    - ../assets/img/Coopers_Cupids/Feed.png
+    - ../assets/img/Coopers_Cupids/Messages.png
+    - ../assets/img/Coopers_Cupids/Settings1.png
+    - ../assets/img/Coopers_Cupids/Settings2.png
+  number: 1
+
+- name: C Compiler
+  subtitle: A functional compiler for a subset of the C language
+  date: Spring 2021
+  description: 'Over the course of the semester, I built a functional compiler for a subset of the C language, written in Lex, Bison, 
+  Assembly, & C.
+  </br></br>The compiler was completed in stages:
+  </br><b>1. Lexer</b>
+  </br><b>2. Parser</b>
+  </br><b>3. Quad Generation</b>
+  </br><b>4. Assembly Generation</b>
+  </br></br>More information about each stage and my implementation, as well as the source code can be found 
+  <a href="https://github.com/alorber/C-Compiler">here</a>.'
+  icons: 
+    - <i class="devicon-c-plain-wordmark colored icon"></i>
+
+  pics: 0
+  number: 2
+
+- name: Quadratic Neurons as Activation Functions in Deep Neural Networks
+  subtitle: <i>Deep Learning</i> Final Project
+  date: Fall 2020
+  description: 'Our final project for Deep Learning built upon the work of Yaparla Ganesh and Rhishi Pratap Singh in <i>Pattern 
+  Classification using Quadratic Neuron: An Experimental Study</i>. Their paper discusses the use of quadratic (QUAD) neurons to 
+  build quadratic neural networks, as opposed to the familiar linear neurons in multilayer perceptron (MLP) models. This paper 
+  displays the use of their quadratic neuron as a Quadratic Activation Function. Comparisons are made between the Sigmoid activation, 
+  ReLu activation, and two new types of quadratic activations. Extensive experimentation was conducted on toy datasets, such as MNIST, 
+  CIFAR10, Spirals, Circles, and more. Empirical results display the use of these Quadratic Activation Functions and motivate further 
+  study on the topic.
+  </br></br>Our research paper and source code can be found <a href="https://github.com/alorber/Quadratic-Activation-Functions">here</a>.'
+  icons:
+    - <i class="devicon-python-plain-wordmark colored icon"></i>
+  pics: 0
+  number: 3
+
+- name: Implementation of Model-Agnostic Meta-Learning (MAML) for Fast Adaptation of Deep Neural Networks
+  subtitle: <i>Deep Learning</i> Midterm Project
+  date: Fall 2020
+  description: 'The goal of this project was to reimplement and verify the results of a research paper on Deep Learning. 
+  The paper we chose was <i>Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks</i> by Chelsea Finn, Pieter Abbeel, 
+  and Sergey Levine. The meta-learning algorithm they present allows for a model to train on a wide range of tasks and then 
+  be fine-tuned to a specific new task from just a few training examples.
+  </br></br>More information about our implementation of the paper can be found <a href="https://github.com/alorber/MAML-Implementation">here</a>.'
+  icons:
+    - <i class="devicon-python-plain-wordmark colored icon"></i>
+  pics: 0
+  number: 4
+
 - name: Frequentist Machine Learning Projects
   subtitle: Projects for my <i>Frequentist Machine Learning</i> Course
   date: Summer 2020
@@ -16,7 +87,7 @@
     - <i class="devicon-python-plain-wordmark colored icon"></i>
     - '<img src="../assets/img/scikit_logo.png" id="Scikit_Icon">'
   pics: 0
-  number: 1
+  number: 5
 
 - name: Neural Network
   subtitle: Neural Network for <i>Artificial Intelligence</i> Project
@@ -41,7 +112,7 @@
   icons: 
     - <i class="devicon-cplusplus-plain colored icon"></i>
   pics: 0
-  number: 2
+  number: 6
 
 - name: Checkers AI
   subtitle: Artificial Intelligence That Plays Checkers
@@ -60,7 +131,7 @@
   icons: 
     - <i class="devicon-cplusplus-plain colored icon"></i>
   pics: 0
-  number: 3
+  number: 7
 
 - name: Portfolio Website
   subtitle: Website To Use As My Portfolio And Resume
@@ -78,52 +149,7 @@
     - <i class="devicon-css3-plain colored icon"></i>
     - <i class="devicon-amazonwebservices-plain-wordmark colored icon"></i>
   pics: 0
-  number: 4
-
-
-- name: Sorting Algorithm
-  subtitle: Sorting Algorithm for a <i>Data Structures and Algorithms</i> Project
-  date: Spring 2019
-  description: 'The aim of this project was to develop a single sorting algorithm that would sort four different 
-    linked lists the fastest. Each node of the linked lists contained a last name, first name, and social security 
-    number (Each ssn was guaranteed to be unique). The four linked lists the program was graded on were not given 
-    before submission, but were described as:
-    <br><br>1) "Approximately (within 1 percent of) 100,000 data objects. 
-    Each data object will store a randomly selected last name, a randomly selected first name, and a randomly generated 
-    social security number."
-    <br>2) "Approximately (within 1 percent of) 1,000,000 data objects. Each data object 
-    will store a randomly selected last name, a randomly selected first name, and a randomly generated social security 
-    number."
-    <br>3) "The same data objects as #2, but they have already been sorted according to last names and 
-    first names (but not according to social security numbers)."
-    <br>4) "Approximately (within 1 percent of) 1,000,000 data objects. Each data object will store the same 
-    last name and the same first name (both selected randomly, but only once), and a randomly generated social 
-    security number."<br><br>My code for the assignment can be viewed 
-    <a href="https://github.com/alorber/DSA-Sorting/tree/master"><i>here</i></a>.'
-  icons: 
-    - <i class="devicon-cplusplus-plain colored icon"></i>
-  pics: 0
-  number: 5
-
-- name: Stacks & Queues
-  subtitle: Implementation of a Stack & Queue for a <i>Data Structures and Algorithms</i> Project
-  date: Spring 2019
-  description: 'The aim of this project was to develop a program that would use data structures to implement 
-  a stack and queue. The program would ask the user for an input and output file and then process each instruction 
-  in the input file. The possible instructions are:
-  <br><br>1) Create <i>(name) (stack/queue)</i>: A stack or queue with the specified 
-  name should be created. If it has already been created, the program should throw an error.
-  <br>2) Push <i>(name) 
-  (value)</i>: The value should be pushed to the specified stack or queue. If it does not exist then the program will 
-  throw an error.
-  <br>3) Pop <i>(name)</i>: Pops a value from the specified stack or queue. If it does not exist then the 
-  program will throw an error.
-  <br><br>My code for the assignment can be viewed 
-  <a href="https://github.com/alorber/DSA-Stacks_Queues"><i>here</i></a>.'
-  icons: 
-    - <i class="devicon-cplusplus-plain colored icon"></i>
-  pics: 0
-  number: 6
+  number: 8
 
 - name: Guess The Song
   subtitle: Song Guessing Game using the Spotify Web API
@@ -157,8 +183,7 @@
     - ../assets/img/Guess_The_Song/Game_Modes.png
     - ../assets/img/Guess_The_Song/Time_Challenge.png
     - ../assets/img/Guess_The_Song/Classic_Mode.png
-    
-  number: 7
+  number: 9
 
 - name: Don't Break The Ice
   subtitle: Logic Game Built Using CMOS Logic Chips for my <i>Digital Logic Design</i> Final Project
@@ -182,7 +207,7 @@
     - ../assets/img/Don't_Break_The_Ice/Board3.png
     - ../assets/img/Don't_Break_The_Ice/Board4.png
     - ../assets/img/Don't_Break_The_Ice/BreadBoards.png
-  number: 8
+  number: 10
 
 - name: Traffic Light
   subtitle: Traffic Light Built Using CMOS Logic Chips for a <i>Digital Logic Design</i> Project
@@ -195,13 +220,12 @@
     <a href="assets/pdf/Traffic_Light.pdf">here</a>.
     <br><br>Videos of the project can be viewed <a href="https://drive.google.com/open?id=1VyOwA9sph4R9GMC9qUuipO86Z6CtLZi-">
     here</a>.'
-
   icons:
     - <i class="fas fa-3x fa-microchip icon"></i>
   pics: 
     - ../assets/img/Traffic_Light/IMG_2466.jpg
     - ../assets/img/Traffic_Light/IMG_2465.jpg
-  number: 9
+  number: 11
 
 - name: Ramaz Artist Project
   subtitle: Website for High School Art Project
@@ -223,6 +247,6 @@
     - <i class="devicon-html5-plain-wordmark colored icon"></i>
     - <i class="devicon-css3-plain colored icon"></i>
   pics: 0
-  number: 10
+  number: 12
 
 
