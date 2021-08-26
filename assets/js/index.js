@@ -5,7 +5,7 @@ $(document).ready(function(){
 						.type("I am a computer engineering major at The Cooper Union.")
 						.pause(2000)
 						.delete()
-						.type("I hope to become a software engineer, but I am also interested in web development.")
+						.type("I am interested in software engineering and web development.")
 						.pause(2000)
 						.delete()
 						.type("Welcome to my site!")
