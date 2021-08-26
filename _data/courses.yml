@@ -78,7 +78,7 @@
     computer vision, speech processing and research problems in communication theory."
   number: 10
 
-- name: Natural Language Processing (Spring '21)
+- name: Natural Language Processing
   description: "This course focuses on computational applications involving the processing of written or spoken human 
     languages. Theoretical subtopics will likely include word statistics, formal and natural language grammars, computational 
     linguistics, hidden Markov models, and various machine learning methods. Applications covered will likely include 
@@ -86,7 +86,7 @@
     and speech recognition."
   number: 11
 
-- name: Software Engineering & Large System Design (Spring '21)
+- name: Software Engineering & Large System Design
   description: "This course teaches about the development stages of large, robust, expandable software systems developed 
     as part of a team. Topics include project management, capturing requirements, system design, UML, program design, 
     testing, delivery and maintenance. The class will develop a large project as a team using Java throughout the semester. 
@@ -94,7 +94,7 @@
     servlets, threads and processes, Swing, JUnit, mySQL, JDBC, etc."
   number: 12
 
-- name: Compilers (Spring '21)
+- name: Compilers
   description: "The theory, design and implementation of a practical compiler. Finite automata, LL and LR parsing, attribute 
     grammars, syntax-directed translation, symbol tables and scopes, type systems and representations, abstract syntax trees, 
     intermediate representation, basic blocks, data and control flow optimizations, assembly language generation including 
