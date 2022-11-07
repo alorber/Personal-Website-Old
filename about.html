@@ -16,9 +16,9 @@ js: "about"
     </div>
     <div class="row">
       <div class="col">
-        <p class="text-center mt-5">I live here</p>
-        <img src="assets/img/Scarsdale.gif" id="Scarsdale_Gif">
-        <p class="text-center mt-2">In Scarsdale, New York.</p>
+        <p class="text-center mt-5">I grew up in Scarsdale, New York, a suburb north of Manhattan.</p>
+        <p class="text-center mt-2">I recently moved to Jerusalem, Israel and am currently searching for 
+            Software Engineering roles in the area.</p>
       </div>
     </div>
 
@@ -26,13 +26,13 @@ js: "about"
 
     <div class="row">
       <div class="col">
-        <p>I am currently an undergraduate Electrical Engineer with a focus in Computer Engineering at 
-          <a href="https://cooper.edu/welcome"><i>The Cooper Union for the Advancement of Science 
-          and Art</i></a> in New York City.</p>
+        <p>I attended college at <a href="https://cooper.edu/welcome"><i>The Cooper Union for the Advancement of Science 
+          and Art</i></a> in New York City, where I graduated Summa Cumme Laude and received a BE in Electrical Engineering 
+          with a focus in Computer Engineering and a minor in Computer Science.</p>
         <p></br>I have taken many great courses related to both hardware and software. These include:</p>
         <ul>
           <li style="font-size: 1em">(Click on a class for course description)</li>
-          {% for course in site.data.courses %}
+          {% for course in site.data.courses reversed %}
           <li><a data-toggle="collapse" data-target="#course{{course.number}}" href="##" 
             role="button" aria-expanded="false">{{ course.name }}</a></li>
           <p class="collapse" id="course{{course.number}}" class="courseDescriptions">{{ course.description }}</p>
@@ -46,13 +46,13 @@ js: "about"
 
     <div class="row">
       <div class="col">
-        <p> At Cooper Union I am heavily involved in Hillel, the Jewish club on campus. Hillel promotes Jewish culture 
+        <p> At Cooper Union I was heavily involved in Hillel, the Jewish club on campus. Hillel promotes Jewish culture 
           and holds events for anyone interested in attending. I joined Hillel as the Event Coordinator from Fall 2018 to 
           Fall 2019. As Event Coordinator I managed the logistics to ensure that monthly events ran smoothly for over 
           thirty students and I collaborated with board members to determine a road-map for the semester’s event 
           programming. From Fall 2019 to Fall 2020, I held the position of Vice President, working with the club's 
           President to lead monthly meetings, finalize event details, and ensure all club programs were properly managed. 
-          Currently, until Fall 2021, I am the President of Hillel.</p>
+          From Fall 2020 to Fall 2021 I was President of Hillel.</p>
       </div>
     </div>
 
@@ -60,7 +60,7 @@ js: "about"
 
     <div class="row">
       <div class="col">
-        <p>This past summer (2021), I interned at <a href="https://www.facebook.com/careers/"><i>Facebook</i></a> as a 
+        <p>Last summer (2021), I interned at <a href="https://www.facebook.com/careers/"><i>Facebook</i></a> as a 
           Front-end Engineering Intern. Over the course of my internship I worked on a new internal tooling experience, 
           bringing all internal tools under one roof with a uniform UI and significantly easier onboarding experience. 
           While migrating each internal tool to the new experience, I was able to interact with and collaborate with many 
@@ -82,7 +82,7 @@ js: "about"
 
     <div class="row">
       <div class="col">
-        <p>Last summer (2020), I returned to <a href="https://cooper.edu/engineering/summer-stem"><i>The Cooper Union 
+        <p>During the summer of 2020, I returned to <a href="https://cooper.edu/engineering/summer-stem"><i>The Cooper Union 
           Summer STEM program</i></a> as a teaching assistant for the <i>Robotics Crash Course</i>. Due to COVID, the 
           usual six-week course was divided into two three-week sessions of roughly twenty high-schoolers to allow more 
           students to participate. Throughout the course, I, along with three others, directed the students in assembling 
@@ -139,7 +139,7 @@ js: "about"
 
     <div class="row">
       <div class="col">
-        <p> I am always looking for more opportunities to learn and am looking for a full-time position following my May 2022 graduation.</p>
+        <p> I am always looking for more opportunities to learn and am looking for a full-time position in Israel.</p>
       </div>
     </div>
   </div>
