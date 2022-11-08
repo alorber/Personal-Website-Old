@@ -2,7 +2,7 @@ $(document).ready(function(){
 
 	// Typing animation loop
 	const word_loop = new TypeIt("#Intro_Loop", {loop: true, autoStart: true, cursor: false})
-						.type("I am a computer engineering major at The Cooper Union.")
+						.type("I have a BE in Computer Engineering and a minor in Computer Science from the Cooper Union.")
 						.pause(2000)
 						.delete()
 						.type("I am interested in software engineering and web development.")
@@ -14,7 +14,6 @@ $(document).ready(function(){
 	new TypeIt("#Intro_Text", {
 		cursor: false,
 		afterComplete: function(instance){
-			console.log("hi");
 			word_loop.go();
 		},
 	}).go();
