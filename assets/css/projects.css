@@ -32,8 +32,23 @@
 .icon {
 	font-size: 4em;
 }
-#Jekyll_Icon, #Scikit_Icon {
+#Jekyll_Icon, #Scikit_Icon, #Ethereum_Icon, #IPFS_Icon, #Flask_Icon {
 	width: 7em;
+	position: relative;
+	bottom: 1.6em;
+}
+#Solidity_Icon {
+    width: 2.5em;
+	position: relative;
+	bottom: 1.6em;
+}
+#Flask_Icon {
+	width: 3.2em;
+	position: relative;
+	bottom: 1.6em;
+}
+#MongoDB_Icon {
+    width: 6em;
 	position: relative;
 	bottom: 1.6em;
 }

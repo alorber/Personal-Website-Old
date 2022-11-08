@@ -1,155 +1,26 @@
-- name: Cooper's Cupids
-  subtitle: A dating web-app built using React, Java, & MySQL
-  date: Spring 2021
-  description: "Cooper's Cupids is a dating webapp built as a term project for ECE 366 - Software Engineering & Large System Design. 
-  The frontend was built by me with React, and the backend was developed by my partner in Java (Spark) and MySQL. The site is fully 
-  responsive and contains features expected of a dating app, including: Sign up / Login; Profile Creation / Editing; User Feed & 
-  Like / Dislike Mechanic; User Matching; User Messaging.
-  </br></br>More information on the project, as well as the source code, can be found <a href='https://github.com/alorber/Coopers-Cupids'>here</a>."
-  icons: 
-    - <i class="devicon-react-original-wordmark icon"></i>
-    - <i class="devicon-java-plain-wordmark icon"></i>
-    - <i class="devicon-spring-plain-wordmark icon"></i>
-    - <i class="devicon-mysql-plain-wordmark icon"></i>
-  pics:
-    - ../assets/img/Coopers_Cupids/Home1.png
-    - ../assets/img/Coopers_Cupids/Home2.png
-    - ../assets/img/Coopers_Cupids/Profile1.png
-    - ../assets/img/Coopers_Cupids/Profile2.png
-    - ../assets/img/Coopers_Cupids/Feed.png
-    - ../assets/img/Coopers_Cupids/Messages.png
-    - ../assets/img/Coopers_Cupids/Settings1.png
-    - ../assets/img/Coopers_Cupids/Settings2.png
+- name: Don't Break The Ice
+  subtitle: Logic Game Built Using CMOS Logic Chips for my <i>Digital Logic Design</i> Final Project
+  date: Fall 2018
+  description: 'The final project for <i>Digital Logic Design</i> required each group of 2 students to fully design 
+    and build a project of their choosing (once the professor approved it) using CMOS logic chips and breadboards. 
+    The project my partner and I built is a logic puzzle / maze.
+    <br><br>The game plays as follows: The goal is to reach the specified ending position from the specified 
+    starting position by stepping on each "tile" on an 8x8 matrix of LEDs once and only once. If the player 
+    goes over a "tile" that has already been stepped on, then the player will lose. Since it is possible to 
+    have an unplayable board if randomly generated, 4 easy boards and 4 hard boards were created. The player 
+    can select the difficulty and one of the 4 board from the selected group will be randomly chosen.
+    <br><br>My documentation for the project, including a schematic diagram of the circuit, can be viewed 
+    <a href="assets/pdf/DBTI_Writeup.pdf">here</a>.<br><br>Videos of the project can be viewed 
+    <a href="https://drive.google.com/open?id=1v6VGA_Qe1WpgrP9lPVLcuAgSELYAf6wm">here</a>.'
+  icons:
+    - <i class="fas fa-3x fa-microchip icon"></i>
+  pics: 
+    - ../assets/img/Don't_Break_The_Ice/Board1.png
+    - ../assets/img/Don't_Break_The_Ice/Board2.png
+    - ../assets/img/Don't_Break_The_Ice/Board3.png
+    - ../assets/img/Don't_Break_The_Ice/Board4.png
+    - ../assets/img/Don't_Break_The_Ice/BreadBoards.png
   number: 1
-
-- name: C Compiler
-  subtitle: A functional compiler for a subset of the C language
-  date: Spring 2021
-  description: 'Over the course of the semester, I built a functional compiler for a subset of the C language, written in Lex, Bison, 
-  Assembly, & C.
-  </br></br>The compiler was completed in stages:
-  </br><b>1. Lexer</b>
-  </br><b>2. Parser</b>
-  </br><b>3. Quad Generation</b>
-  </br><b>4. Assembly Generation</b>
-  </br></br>More information about each stage and my implementation, as well as the source code can be found 
-  <a href="https://github.com/alorber/C-Compiler">here</a>.'
-  icons: 
-    - <i class="devicon-c-plain-wordmark colored icon"></i>
-
-  pics: 0
-  number: 2
-
-- name: Quadratic Neurons as Activation Functions in Deep Neural Networks
-  subtitle: <i>Deep Learning</i> Final Project
-  date: Fall 2020
-  description: 'Our final project for Deep Learning built upon the work of Yaparla Ganesh and Rhishi Pratap Singh in <i>Pattern 
-  Classification using Quadratic Neuron: An Experimental Study</i>. Their paper discusses the use of quadratic (QUAD) neurons to 
-  build quadratic neural networks, as opposed to the familiar linear neurons in multilayer perceptron (MLP) models. This paper 
-  displays the use of their quadratic neuron as a Quadratic Activation Function. Comparisons are made between the Sigmoid activation, 
-  ReLu activation, and two new types of quadratic activations. Extensive experimentation was conducted on toy datasets, such as MNIST, 
-  CIFAR10, Spirals, Circles, and more. Empirical results display the use of these Quadratic Activation Functions and motivate further 
-  study on the topic.
-  </br></br>Our research paper and source code can be found <a href="https://github.com/alorber/Quadratic-Activation-Functions">here</a>.'
-  icons:
-    - <i class="devicon-python-plain-wordmark colored icon"></i>
-  pics: 0
-  number: 3
-
-- name: Implementation of Model-Agnostic Meta-Learning (MAML) for Fast Adaptation of Deep Neural Networks
-  subtitle: <i>Deep Learning</i> Midterm Project
-  date: Fall 2020
-  description: 'The goal of this project was to reimplement and verify the results of a research paper on Deep Learning. 
-  The paper we chose was <i>Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks</i> by Chelsea Finn, Pieter Abbeel, 
-  and Sergey Levine. The meta-learning algorithm they present allows for a model to train on a wide range of tasks and then 
-  be fine-tuned to a specific new task from just a few training examples.
-  </br></br>More information about our implementation of the paper can be found <a href="https://github.com/alorber/MAML-Implementation">here</a>.'
-  icons:
-    - <i class="devicon-python-plain-wordmark colored icon"></i>
-  pics: 0
-  number: 4
-
-- name: Frequentist Machine Learning Projects
-  subtitle: Projects for my <i>Frequentist Machine Learning</i> Course
-  date: Summer 2020
-  description: 'This summer, while working for <a href="https://cooper.edu/engineering/summer-stem">
-  <i>The Cooper Union Summer STEM program</i></a>, I took a frequentist machine learning course that consisted
-  of seven small projects, each focusing on a different machine learning model or topic.
-  </br></br>Click on a topic to see the project description and code:
-  </br></br>Project 1: <a href="https://github.com/alorber/Frequentist-Machine-Learning-Projects/tree/master/Project%201%20-%20Linear%20Regression">Linear Regression</a>
-  </br>Project 2: <a href="https://github.com/alorber/Frequentist-Machine-Learning-Projects/tree/master/Project%202%20-%20Logistic%20Regression">Logistic Regression</a>
-  </br>Project 3: <a href="https://github.com/alorber/Frequentist-Machine-Learning-Projects/tree/master/Project%203%20-%20Cross%20Validation">Cross Validation</a>
-  </br>Project 4: <a href="https://github.com/alorber/Frequentist-Machine-Learning-Projects/tree/master/Project%204%20-%20Gradient%20Boosted%20Trees">Gradient Boosted Trees</a>
-  </br>Project 5: <a href="https://github.com/alorber/Frequentist-Machine-Learning-Projects/tree/master/Project%205%20-%20Random%20Forest">Random Forest</a>
-  </br>Project 6: <a href="https://github.com/alorber/Frequentist-Machine-Learning-Projects/tree/master/Project%206%20-%20Nonnegative%20Matrix%20Factorization">Non-Negative Matrix Factorization</a>
-  </br>Project 7: <a href="https://github.com/alorber/Frequentist-Machine-Learning-Projects/tree/master/Project%207%20-%20Market%20Basket%20Analysis">Market Basket Analysis</a>'
-  icons: 
-    - <i class="devicon-python-plain-wordmark colored icon"></i>
-    - '<img src="../assets/img/scikit_logo.png" id="Scikit_Icon">'
-  pics: 0
-  number: 5
-
-- name: Neural Network
-  subtitle: Neural Network for <i>Artificial Intelligence</i> Project
-  date: Fall 2019
-  description: 'Project 2 of my <i>Artificial Intelligence</i> course was to build a neural network from scratch. 
-  The program allows for the training and testing of a neural network containing one hidden layer. The expected 
-  outputs for training and testing examples will always be 1 or 0, respectively indicating inclusion or exclusion 
-  from some Boolean class.
-  <br><br>When the neural network is trained, the program will prompt the user for the names of three text files 
-  representing the initial neural network, a training set, and an output file; one positive integer representing 
-  the number of epochs; and one floating-point value representing the learning rate. The first text file will 
-  specify the number of input nodes, hidden nodes, and output nodes. The training is done using back-propagation.
-  <br><br>When the neural network is tested, the program will prompt the user for the names of three 
-  text files representing a trained neural network, a testing set, and an output file. Four metrics are calculated 
-  for each Boolean output class: Overall Accuracy, Precision, Recall, and F1. These metrics are also calculated 
-  for the entire data-set using mico-averaging and macro-averaging.
-  <br><br>Additionally, each student was required to create or find an interesting dataset that can be used 
-  to train and test neural networks adhering to the specifications of this assignment. The description of 
-  my custom data-set can be read <i><a href="assets/pdf/AI_Project_2_Writeup.pdf">here</a></i>.
-  <br><br>The code for the project can be found <i><a href="https://github.com/alorber/AI-Neural_Network">here
-  </a></i> on my github.'
-  icons: 
-    - <i class="devicon-cplusplus-plain colored icon"></i>
-  pics: 0
-  number: 6
-
-- name: Checkers AI
-  subtitle: Artificial Intelligence That Plays Checkers
-  date: Fall 2019
-  description: 'The first project in my <i>Artificial Intelligence</i> course was to build the game of checkers and 
-  an AI to play against the user. I built the game with an ASCII interface, allowing the user to select from 
-  multiple options and game modes. The user can begin a new game or import a custom board, the user can either 
-  play against the AI or have the AI play itself, the user can decide how long the AI has to move, and the user 
-  can decide the starting player. The AI was implemented by a minimax search with alpha-beta pruning and 
-  iterative deepening. I developed and thoroughly tested the heuristic that the AI uses by having the AI play 
-  against itself with different heuristics, tweaking the one that lost.
-  <br><br>The code for the project can be found <i><a href="https://github.com/alorber/AI-Checkers">here</a></i> 
-  on my github.
-  <br><br>The write-up for the project, describing my implementation in more detail, can be read 
-  <i><a href="assets/pdf/AI_Project_1_Writeup.pdf">here</a></i>.'
-  icons: 
-    - <i class="devicon-cplusplus-plain colored icon"></i>
-  pics: 0
-  number: 7
-
-- name: Portfolio Website
-  subtitle: Website To Use As My Portfolio And Resume
-  date: Summer 2019
-  description: 'The website you are currently viewing was built from scratch. I decided to use this project as a 
-  learning experience and used technologies I had not previously used. I learned Jekyll to make the HTML simpler and 
-  nicer, and I used AWS to host the site.
-  <br><br>The code for the site can be viewed <i><a href="https://github.com/alorber/Personal-Website">here</a></i>.'
-  icons: 
-    - <i class="devicon-javascript-plain colored icon"></i>
-    - <i class="devicon-jquery-plain-wordmark colored icon"></i>
-    - '<img src="../assets/img/jekyll_logo.png" id="Jekyll_Icon">'
-    - <i class="devicon-bootstrap-plain colored icon"></i>
-    - <i class="devicon-html5-plain-wordmark colored icon"></i>
-    - <i class="devicon-css3-plain colored icon"></i>
-    - <i class="devicon-amazonwebservices-plain-wordmark colored icon"></i>
-  pics: 0
-  number: 8
 
 - name: Guess The Song
   subtitle: Song Guessing Game using the Spotify Web API
@@ -183,70 +54,201 @@
     - ../assets/img/Guess_The_Song/Game_Modes.png
     - ../assets/img/Guess_The_Song/Time_Challenge.png
     - ../assets/img/Guess_The_Song/Classic_Mode.png
-  number: 9
+  number: 2
 
-- name: Don't Break The Ice
-  subtitle: Logic Game Built Using CMOS Logic Chips for my <i>Digital Logic Design</i> Final Project
-  date: Fall 2018
-  description: 'The final project for <i>Digital Logic Design</i> required each group of 2 students to fully design 
-    and build a project of their choosing (once the professor approved it) using CMOS logic chips and breadboards. 
-    The project my partner and I built is a logic puzzle / maze.
-    <br><br>The game plays as follows: The goal is to reach the specified ending position from the specified 
-    starting position by stepping on each "tile" on an 8x8 matrix of LEDs once and only once. If the player 
-    goes over a "tile" that has already been stepped on, then the player will lose. Since it is possible to 
-    have an unplayable board if randomly generated, 4 easy boards and 4 hard boards were created. The player 
-    can select the difficulty and one of the 4 board from the selected group will be randomly chosen.
-    <br><br>My documentation for the project, including a schematic diagram of the circuit, can be viewed 
-    <a href="assets/pdf/DBTI_Writeup.pdf">here</a>.<br><br>Videos of the project can be viewed 
-    <a href="https://drive.google.com/open?id=1v6VGA_Qe1WpgrP9lPVLcuAgSELYAf6wm">here</a>.'
-  icons:
-    - <i class="fas fa-3x fa-microchip icon"></i>
-  pics: 
-    - ../assets/img/Don't_Break_The_Ice/Board1.png
-    - ../assets/img/Don't_Break_The_Ice/Board2.png
-    - ../assets/img/Don't_Break_The_Ice/Board3.png
-    - ../assets/img/Don't_Break_The_Ice/Board4.png
-    - ../assets/img/Don't_Break_The_Ice/BreadBoards.png
-  number: 10
-
-- name: Traffic Light
-  subtitle: Traffic Light Built Using CMOS Logic Chips for a <i>Digital Logic Design</i> Project
-  date: Fall 2018
-  description: 'The purpose of this project was to simulate a 4-way traffic light using CMOS logic chips and 
-    breadboards. The traffic light included: red, yellow, and green LEDs for all 4 directions; green and yellow turn 
-    signals for East and West; a display counting down the seconds left for the green light (time left for pedestrians 
-    to cross); a pedestrian button to shorten the green light to 5 seconds.
-    <br><br>My documentation for the project, including a schematic diagram of the circuit, can be viewed 
-    <a href="assets/pdf/Traffic_Light.pdf">here</a>.
-    <br><br>Videos of the project can be viewed <a href="https://drive.google.com/open?id=1VyOwA9sph4R9GMC9qUuipO86Z6CtLZi-">
-    here</a>.'
-  icons:
-    - <i class="fas fa-3x fa-microchip icon"></i>
-  pics: 
-    - ../assets/img/Traffic_Light/IMG_2466.jpg
-    - ../assets/img/Traffic_Light/IMG_2465.jpg
-  number: 11
-
-- name: Ramaz Artist Project
-  subtitle: Website for High School Art Project
-  date: Spring 2017
-  description: 'The Ramaz Artist Project was my first experience with web development. During my senior year of 
-    high school, one of my teachers asked me if I would like to build a website for a school art project. Realizing 
-    the opportunity to learn something new, I immediately agreed. I spent a few weeks watching videos online, which 
-    taught me the basics of HTML, CSS, and JavaScript; The rest I learned as I worked on the website.
-    <br><br> The official description of the project is: <i>The Ramaz Artist Project is an online video series 
-    created as a homage to the Metropolitan Museum of Art’s own Artist Project, in which contemporary artists 
-    from around the world explore and engage with its renowned collection. The Ramaz Artist Project follows 
-    twelve senior studio art students as they vocalize their relationships with the very same body of work.</i>
-    <br><br>This project was a great learning experience and the website can be found 
-    <a href="http://artistproject.ramaz.org/index.html">here</a>.'
-  icons:
+- name: Portfolio Website
+  subtitle: Website To Use As My Portfolio And Resume
+  date: Summer 2019
+  description: 'The website you are currently viewing was built from scratch. I decided to use this project as a 
+  learning experience and used technologies I had not previously used. I learned Jekyll to make the HTML simpler and 
+  nicer, and I used AWS to host the site.
+  <br><br>The code for the site can be viewed <i><a href="https://github.com/alorber/Personal-Website">here</a></i>.'
+  icons: 
     - <i class="devicon-javascript-plain colored icon"></i>
     - <i class="devicon-jquery-plain-wordmark colored icon"></i>
+    - '<img src="../assets/img/Tech_Icons/jekyll_logo.png" id="Jekyll_Icon">'
     - <i class="devicon-bootstrap-plain colored icon"></i>
     - <i class="devicon-html5-plain-wordmark colored icon"></i>
     - <i class="devicon-css3-plain colored icon"></i>
+    - <i class="devicon-amazonwebservices-plain-wordmark colored icon"></i>
   pics: 0
-  number: 12
+  number: 3
 
+- name: Checkers AI
+  subtitle: Artificial Intelligence That Plays Checkers
+  date: Fall 2019
+  description: 'The first project in my <i>Artificial Intelligence</i> course was to build the game of checkers and 
+  an AI to play against the user. I built the game with an ASCII interface, allowing the user to select from 
+  multiple options and game modes. The user can begin a new game or import a custom board, the user can either 
+  play against the AI or have the AI play itself, the user can decide how long the AI has to move, and the user 
+  can decide the starting player. The AI was implemented by a minimax search with alpha-beta pruning and 
+  iterative deepening. I developed and thoroughly tested the heuristic that the AI uses by having the AI play 
+  against itself with different heuristics, tweaking the one that lost.
+  <br><br>The code for the project can be found <i><a href="https://github.com/alorber/AI-Checkers">here</a></i> 
+  on my github.
+  <br><br>The write-up for the project, describing my implementation in more detail, can be read 
+  <i><a href="assets/pdf/AI_Project_1_Writeup.pdf">here</a></i>.'
+  icons: 
+    - <i class="devicon-cplusplus-plain colored icon"></i>
+  pics: 0
+  number: 4
+
+- name: Neural Network
+  subtitle: Neural Network for <i>Artificial Intelligence</i> Project
+  date: Fall 2019
+  description: 'Project 2 of my <i>Artificial Intelligence</i> course was to build a neural network from scratch. 
+  The program allows for the training and testing of a neural network containing one hidden layer. The expected 
+  outputs for training and testing examples will always be 1 or 0, respectively indicating inclusion or exclusion 
+  from some Boolean class.
+  <br><br>When the neural network is trained, the program will prompt the user for the names of three text files 
+  representing the initial neural network, a training set, and an output file; one positive integer representing 
+  the number of epochs; and one floating-point value representing the learning rate. The first text file will 
+  specify the number of input nodes, hidden nodes, and output nodes. The training is done using back-propagation.
+  <br><br>When the neural network is tested, the program will prompt the user for the names of three 
+  text files representing a trained neural network, a testing set, and an output file. Four metrics are calculated 
+  for each Boolean output class: Overall Accuracy, Precision, Recall, and F1. These metrics are also calculated 
+  for the entire data-set using mico-averaging and macro-averaging.
+  <br><br>Additionally, each student was required to create or find an interesting dataset that can be used 
+  to train and test neural networks adhering to the specifications of this assignment. The description of 
+  my custom data-set can be read <i><a href="assets/pdf/AI_Project_2_Writeup.pdf">here</a></i>.
+  <br><br>The code for the project can be found <i><a href="https://github.com/alorber/AI-Neural_Network">here
+  </a></i> on my github.'
+  icons: 
+    - <i class="devicon-cplusplus-plain colored icon"></i>
+  pics: 0
+  number: 5
+
+- name: Frequentist Machine Learning Projects
+  subtitle: Projects for my <i>Frequentist Machine Learning</i> Course
+  date: Summer 2020
+  description: 'This summer, while working for <a href="https://cooper.edu/engineering/summer-stem">
+  <i>The Cooper Union Summer STEM program</i></a>, I took a frequentist machine learning course that consisted
+  of seven small projects, each focusing on a different machine learning model or topic.
+  </br></br>Click on a topic to see the project description and code:
+  </br></br>Project 1: <a href="https://github.com/alorber/Frequentist-Machine-Learning-Projects/tree/master/Project%201%20-%20Linear%20Regression">Linear Regression</a>
+  </br>Project 2: <a href="https://github.com/alorber/Frequentist-Machine-Learning-Projects/tree/master/Project%202%20-%20Logistic%20Regression">Logistic Regression</a>
+  </br>Project 3: <a href="https://github.com/alorber/Frequentist-Machine-Learning-Projects/tree/master/Project%203%20-%20Cross%20Validation">Cross Validation</a>
+  </br>Project 4: <a href="https://github.com/alorber/Frequentist-Machine-Learning-Projects/tree/master/Project%204%20-%20Gradient%20Boosted%20Trees">Gradient Boosted Trees</a>
+  </br>Project 5: <a href="https://github.com/alorber/Frequentist-Machine-Learning-Projects/tree/master/Project%205%20-%20Random%20Forest">Random Forest</a>
+  </br>Project 6: <a href="https://github.com/alorber/Frequentist-Machine-Learning-Projects/tree/master/Project%206%20-%20Nonnegative%20Matrix%20Factorization">Non-Negative Matrix Factorization</a>
+  </br>Project 7: <a href="https://github.com/alorber/Frequentist-Machine-Learning-Projects/tree/master/Project%207%20-%20Market%20Basket%20Analysis">Market Basket Analysis</a>'
+  icons: 
+    - <i class="devicon-python-plain-wordmark colored icon"></i>
+    - '<img src="../assets/img/Tech_Icons/scikit_logo.png" id="Scikit_Icon">'
+  pics: 0
+  number: 6
+
+- name: Implementation of Model-Agnostic Meta-Learning (MAML) for Fast Adaptation of Deep Neural Networks
+  subtitle: <i>Deep Learning</i> Midterm Project
+  date: Fall 2020
+  description: 'The goal of this project was to reimplement and verify the results of a research paper on Deep Learning. 
+  The paper we chose was <i>Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks</i> by Chelsea Finn, Pieter Abbeel, 
+  and Sergey Levine. The meta-learning algorithm they present allows for a model to train on a wide range of tasks and then 
+  be fine-tuned to a specific new task from just a few training examples.
+  </br></br>More information about our implementation of the paper can be found <a href="https://github.com/alorber/MAML-Implementation">here</a>.'
+  icons:
+    - <i class="devicon-python-plain-wordmark colored icon"></i>
+  pics: 0
+  number: 7
+
+- name: Quadratic Neurons as Activation Functions in Deep Neural Networks
+  subtitle: <i>Deep Learning</i> Final Project
+  date: Fall 2020
+  description: 'Our final project for Deep Learning built upon the work of Yaparla Ganesh and Rhishi Pratap Singh in <i>Pattern 
+  Classification using Quadratic Neuron: An Experimental Study</i>. Their paper discusses the use of quadratic (QUAD) neurons to 
+  build quadratic neural networks, as opposed to the familiar linear neurons in multilayer perceptron (MLP) models. This paper 
+  displays the use of their quadratic neuron as a Quadratic Activation Function. Comparisons are made between the Sigmoid activation, 
+  ReLu activation, and two new types of quadratic activations. Extensive experimentation was conducted on toy datasets, such as MNIST, 
+  CIFAR10, Spirals, Circles, and more. Empirical results display the use of these Quadratic Activation Functions and motivate further 
+  study on the topic.
+  </br></br>Our research paper and source code can be found <a href="https://github.com/alorber/Quadratic-Activation-Functions">here</a>.'
+  icons:
+    - <i class="devicon-python-plain-wordmark colored icon"></i>
+  pics: 0
+  number: 8
+
+- name: C Compiler
+  subtitle: A functional compiler for a subset of the C language
+  date: Spring 2021
+  description: 'Over the course of the semester, I built a functional compiler for a subset of the C language, written in Lex, Bison, 
+  Assembly, & C.
+  </br></br>The compiler was completed in stages:
+  </br><b>1. Lexer</b>
+  </br><b>2. Parser</b>
+  </br><b>3. Quad Generation</b>
+  </br><b>4. Assembly Generation</b>
+  </br></br>More information about each stage and my implementation, as well as the source code can be found 
+  <a href="https://github.com/alorber/C-Compiler">here</a>.'
+  icons: 
+    - <i class="devicon-c-plain-wordmark colored icon"></i>
+  pics: 0
+  number: 9
+
+- name: Cooper's Cupids
+  subtitle: A dating web-app built using React, Java, & MySQL
+  date: Spring 2021
+  description: "Cooper's Cupids is a dating webapp built as a term project for ECE 366 - Software Engineering & Large System Design. 
+  The frontend was built by me with React, and the backend was developed by my partner in Java (Spark) and MySQL. The site is fully 
+  responsive and contains features expected of a dating app, including: Sign up / Login; Profile Creation / Editing; User Feed & 
+  Like / Dislike Mechanic; User Matching; User Messaging.
+  </br></br>More information on the project, as well as the source code, can be found <a href='https://github.com/alorber/Coopers-Cupids'>here</a>."
+  icons: 
+    - <i class="devicon-react-original-wordmark icon"></i>
+    - <i class="devicon-java-plain-wordmark icon"></i>
+    - <i class="devicon-spring-plain-wordmark icon"></i>
+    - <i class="devicon-mysql-plain-wordmark icon"></i>
+  pics:
+    - ../assets/img/Coopers_Cupids/Home1.png
+    - ../assets/img/Coopers_Cupids/Home2.png
+    - ../assets/img/Coopers_Cupids/Profile1.png
+    - ../assets/img/Coopers_Cupids/Profile2.png
+    - ../assets/img/Coopers_Cupids/Feed.png
+    - ../assets/img/Coopers_Cupids/Messages.png
+    - ../assets/img/Coopers_Cupids/Settings1.png
+    - ../assets/img/Coopers_Cupids/Settings2.png
+  number: 10
+
+- name: Mixx
+  subtitle: A Home Bartender's Best Friend
+  date: Fall 2021
+  description: "Mixx is a web-app that allows users to discover which cocktails can be created from their bar stock. Users can create an account to 
+  track their current inventory, receiving cocktail suggestions based on what they have on hand and ingredient suggestions for their next purchase. 
+  Users can save cocktails for later or rate cocktails to receive recommendations. Even without creating an account, users can browse the entire database 
+  of cocktails and ingredients, viewing recipes and step-by-step instructions.
+  </br></br>The project was built using React, Flask, & MongoDB.
+  </br></br>More information on the project, as well as the source code, can be found <a href='https://github.com/alorber/Mixx'>here</a>."
+  icons: 
+    - <i class="devicon-react-original-wordmark icon"></i>
+    - '<img src="../assets/img/Tech_Icons/Flask_Logo.png" id="Flask_Icon">'
+    - '<img src="../assets/img/Tech_Icons/mongodb_Logo.png" id="MongoDB_Icon">'
+  pics:
+    - ../assets/img/Mixx/Mixx_Home_Page_1.png
+    - ../assets/img/Mixx/Mixx_Home_Page_2.png
+    - ../assets/img/Mixx/Mixx_My_Ingredients_Page.png
+    - ../assets/img/Mixx/Mixx_My_Cocktails_Page.png
+    - ../assets/img/Mixx/Mixx_Ingredients_Page.png
+    - ../assets/img/Mixx/Mixx_Cocktail_Page.png
+    - ../assets/img/Mixx/Mixx_Signup_Page.png
+  number: 11
+
+- name: Cooper Union NFT Marketplace
+  subtitle: Prototype NFT Marketplace for Cooper Union Students
+  date: Spring 2022
+  description: "The purpose of this project was to develop an Ethereum-based NFT marketplace following the ERC-1155 token standard. The marketplace would restrict 
+  minting to Cooper Union students alone and would be driven by the Cooper Union name brand. This proof-of-concept would display the possibilities of applying an NFT 
+  marketplace to an academic institution and would initiate conversations within Cooper Union on its development.
+  </br></br>The marketplace was developed on the Ethereum blockchain using the Solidity language, the ERC1155 token standard, and the EIP2981 royalty standard. NFTs are 
+  stored on IPFS, MetaMask is used to interact with users' Ethereum wallets, and the frontend was developed in React.
+  </br></br>A more thorough write-up on the project, as well as the source code, can be found <a href='https://github.com/alorber/Cooper-NFT'>here</a>."
+  icons: 
+    - '<img src="../assets/img/Tech_Icons/Ethereum_Logo.png" id="Ethereum_Icon">'
+    - '<img src="../assets/img/Tech_Icons/Solidity_Logo.png" id="Solidity_Icon">'
+    - '<img src="../assets/img/Tech_Icons/IPFS_Logo.png" id="IPFS_Icon">'
+    - <i class="devicon-react-original-wordmark icon"></i>
+  pics:
+    - ../assets/img/CU_NFT/Home_Page.png
+    - ../assets/img/CU_NFT/Explore_Page.png
+    - ../assets/img/CU_NFT/NFT_Page.png
+    - ../assets/img/CU_NFT/Create_Form.png
+  number: 12
 
